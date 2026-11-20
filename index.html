@@ -5571,7 +5571,6 @@ window.QUIZ_DATA = [
           <div class="q-text">${q.question}</div>
           ${imageHtml}
           <div class="choices-list">${choicesHtml}</div>
-          ${expHtml}
 
           <div class="card-nav">
             <button class="nav-btn" onclick="prevQuestion()" ${currentIndex === 0 ? 'disabled' : ''}>
@@ -5586,6 +5585,8 @@ window.QUIZ_DATA = [
                 : `<button class="nav-btn primary" onclick="nextQuestion()" ${currentIndex === list.length - 1 ? 'disabled' : ''}>ถัดไป →</button>`
             }
           </div>
+
+          ${expHtml}
         </div>
       `;
     }
