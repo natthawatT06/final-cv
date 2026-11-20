@@ -1,0 +1,1724 @@
+[
+  {
+    "title": "แบบทดสอบก่อนเรียน (Pre-Test)",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบก่อนเรียน (Pre-Test)\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:12:13 and obtained 13 correct answers out of 15 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "คอมพิวเตอร์วิชันคืออะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "วิสัยทัศน์เกี่ยวกับคอมพิวเตอร์",
+            "images": []
+          },
+          {
+            "text": "การทำให้คอมพิวเตอร์มองเห็นเหมือนมนุษย์",
+            "images": []
+          },
+          {
+            "text": "การทำให้ภาพชัดขึ้น",
+            "images": []
+          },
+          {
+            "text": "การสร้างภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "คอมพิวเตอร์วิชัน (CV) เกี่ยวกับปัญญาประดิษฐ์ (AI) อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "CV และ AI ไม่เกี่ยวกันเลย",
+            "images": []
+          },
+          {
+            "text": "CV และ AI คือสิ่งเดียวกัน",
+            "images": []
+          },
+          {
+            "text": "CV เป็นสาขาหนึ่งของ AI",
+            "images": []
+          },
+          {
+            "text": "AI เป็นสาขาหนึ่งของ CV",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "มีการประยุกต์ใช้คอมพิวเตอร์วิชันในงานใดบ้าง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "วิเคราะห์ภาพทางการแพทย์",
+            "images": []
+          },
+          {
+            "text": "รักษาความปลอดภัย",
+            "images": []
+          },
+          {
+            "text": "การสร้างหุ่นยนต์ทำงานอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ข้อมูลนำเข้าของระบบคอมพิวเตอร์วิชันคือภาพและวิดีโอ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ถูก",
+            "images": []
+          },
+          {
+            "text": "ผิด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากเราใช้ 8 บิตในการแทนค่าจุดภาพของภาพเฉดเทา (grayscale image) แต่ละจุดภาพจะมีเฉดได้กี่เฉด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "32 เฉด",
+            "images": []
+          },
+          {
+            "text": "64 เฉด",
+            "images": []
+          },
+          {
+            "text": "128 เฉด",
+            "images": []
+          },
+          {
+            "text": "256 เฉด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "6",
+        "question": "จุดภาพ (0,0) อยู่ตำแหน่งใดในภาพ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "มุมซ้ายบนของภาพ",
+            "images": []
+          },
+          {
+            "text": "มุมขวาบนของภาพ",
+            "images": []
+          },
+          {
+            "text": "มุมซ้ายล่างของภาพ",
+            "images": []
+          },
+          {
+            "text": "ตรงกลางของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "7",
+        "question": "คำว่า Pixel ย่อมาจากอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Picture Element",
+            "images": []
+          },
+          {
+            "text": "Picture Excellence",
+            "images": []
+          },
+          {
+            "text": "Pixel Element",
+            "images": []
+          },
+          {
+            "text": "Picture Expansion",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "8",
+        "question": "ข้อใดไม่ใช่สาเหตุของการทำให้เกิดสัญญาณรบกวนในภาพ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การตั้งค่า ISO สูง",
+            "images": []
+          },
+          {
+            "text": "การบีบอัดไฟล์ภาพ",
+            "images": []
+          },
+          {
+            "text": "การถ่ายภาพในสภาพแสงน้อย",
+            "images": []
+          },
+          {
+            "text": "การใช้ไฟล์ภาพความละเอียดสูง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "9",
+        "question": "เราสร้างฮิสโตแกรมของภาพเพื่ออะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ลดขนาดของภาพ",
+            "images": []
+          },
+          {
+            "text": "ปรับความสว่างของภาพ",
+            "images": []
+          },
+          {
+            "text": "แสดงการกระจายความเข้มของพิกเซลในภาพ",
+            "images": []
+          },
+          {
+            "text": "ปรับความคมชัดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "question": "คุณลักษณะสำคัญ (Features) ของวัตถุในภาพหมายถึงอะไร",
+        "images": [],
+        "status": "INCORRECT",
+        "choices": [
+          {
+            "text": "ขนาดของวัตถุในภาพ",
+            "images": []
+          },
+          {
+            "text": "จุดข้อมูลที่สำคัญซึ่งใช้ในการแยกแยะและระบุวัตถุ",
+            "images": []
+          },
+          {
+            "text": "สีของวัตถุในภาพ",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "question": "ขอบ (Edge) ในภาพหมายถึงอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "บริเวณที่มีความสม่ำเสมอของค่าความเข้ม",
+            "images": []
+          },
+          {
+            "text": "บริเวณที่มีการเปลี่ยนแปลงค่าความเข้มของพิกเซลอย่างทันทีทันใด",
+            "images": []
+          },
+          {
+            "text": "บริเวณที่มีความคมชัดสูงสุดในภาพ",
+            "images": []
+          },
+          {
+            "text": "บริเวณที่มีค่าความเข้มของพิกเซลเป็นค่าเฉลี่ย",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "question": "วิธีการใดที่ไม่ใช่เทคนิคในการตรวจจับการเคลื่อนที่ในวิดีทัศน์",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การหาผลต่างเฟรม",
+            "images": []
+          },
+          {
+            "text": "การลบฉากหลัง",
+            "images": []
+          },
+          {
+            "text": "การวิเคราะห์การกระจายของสี",
+            "images": []
+          },
+          {
+            "text": "การหาออปติคอลโฟร์",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "question": "เราใช้เทคนิคออปติคอลโฟร์เพื่องานอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เพื่อติดตามการเคลื่อนที่ของวัตถุในวิดีโอโดยการวิเคราะห์การเคลื่อนไหวของพิกเซล",
+            "images": []
+          },
+          {
+            "text": "เพื่อแยกวัตถุจากพื้นหลังในวิดีโอโดยการเปรียบเทียบกับภาพพื้นหลัง",
+            "images": []
+          },
+          {
+            "text": "เพื่อปรับขนาดของภาพเพื่อให้เหมาะสมกับการประมวลผล",
+            "images": []
+          },
+          {
+            "text": "เพื่อเพิ่มความคมชัดของภาพโดยการปรับค่าความสว่าง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "14",
+        "question": "CNN ย่อมาจากอะไร",
+        "images": [],
+        "status": "INCORRECT",
+        "choices": [
+          {
+            "text": "Convolutional Network Node",
+            "images": []
+          },
+          {
+            "text": "Central Neural Network",
+            "images": []
+          },
+          {
+            "text": "Connected Neural Network",
+            "images": []
+          },
+          {
+            "text": "Convolutional Neural Network",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "question": "เทคนิคที่ใช้ในการแบ่งประเภทของภาพเป็นประเภทต่าง ๆ เรียกว่าอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Segmentation",
+            "images": []
+          },
+          {
+            "text": "Classification",
+            "images": []
+          },
+          {
+            "text": "Object Detection",
+            "images": []
+          },
+          {
+            "text": "Clustering",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบก่อนเรียน (Pre-Test)",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1400238"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 1",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 1\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:17:44 and obtained 4 correct answers out of 4 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "คอมพิวเตอร์วิชันทำหน้าที่อะไรในการประมวลผลข้อมูล",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การอ่านและเข้าใจเสียง",
+            "images": []
+          },
+          {
+            "text": "การวิเคราะห์และตีความภาพหรือวิดีโอ",
+            "images": []
+          },
+          {
+            "text": "การสร้างข้อมูลจากตัวอักษร",
+            "images": []
+          },
+          {
+            "text": "การควบคุมอุปกรณ์ไฟฟ้า",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดไม่ได้ใช้เทคโนโลยีคอมพิวเตอร์วิชัน",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "รถขับเคลื่อนอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "โปรแกรมตรวจจับ Spam mail อัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "เครื่องสแกนใบหน้า",
+            "images": []
+          },
+          {
+            "text": "กล้องอ่านป้านทะเบียนรถยนต์",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดเป็นแอปพลิเคชันของคอมพิวเตอร์วิชัน",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การแปลภาษา",
+            "images": []
+          },
+          {
+            "text": "การประมวลผลเสียง",
+            "images": []
+          },
+          {
+            "text": "การขับรถอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "Chatbot",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "หากเราใช้ 5 บิตในการแทนค่าจุดภาพของภาพเฉดเทา (grayscale image) แต่ละจุดภาพจะมีเฉดได้กี่เฉด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "32 เฉด",
+            "images": []
+          },
+          {
+            "text": "64 เฉด",
+            "images": []
+          },
+          {
+            "text": "128 เฉด",
+            "images": []
+          },
+          {
+            "text": "256 เฉด",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 1: รู้จักคอมพิวเตอร์วิชัน",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1397438"
+  },
+  {
+    "title": "แบบทดสอบท้ายบทที่ 2",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบทที่ 2\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:28:04 and obtained 4 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "จุดภาพ (0,0) อยู่ตำแหน่งใดในภาพ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "มุมขวาบนของภาพ",
+            "images": []
+          },
+          {
+            "text": "มุมซ้ายล่างของภาพ",
+            "images": []
+          },
+          {
+            "text": "ตรงกลางของภาพ",
+            "images": []
+          },
+          {
+            "text": "มุมซ้ายบนของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ใน OpenCV คำสั่งใดที่ใช้เปิดภาพและบันทึกภาพ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "cv2.imread() และ cv2.imwrite()",
+            "images": []
+          },
+          {
+            "text": "cv2.open() และ cv2.save()",
+            "images": []
+          },
+          {
+            "text": "cv2.load() และ cv2.saveimage()",
+            "images": []
+          },
+          {
+            "text": "cv2.readimage() และ cv2.writeimage()",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "หากใช้ข้อมูลขนาด 2 Byte เก็บค่าความสว่างของจุดภาพ จุดภาพที่มีค่าต่อไปนี้ 0,126,255 ,uu.f",
+        "images": [],
+        "status": "INCORRECT",
+        "choices": [
+          {
+            "text": "ดำ เทา ขาว",
+            "images": []
+          },
+          {
+            "text": "ขาว เทา ดำ",
+            "images": []
+          },
+          {
+            "text": "ดำ เทาเข้ม เทาอ่อน",
+            "images": []
+          },
+          {
+            "text": "ขาว เทาอ่อน เทาเข้ม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "หากต้องการวาดวงกลมสีเขียวบนภาพ รัศมี 200 และมีจุดศูนย์กลางอยู่ที่ (300,300) ควรใช้คำสั่งใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "cv2.circle(image, (300, 300), 200, (0, 255, 0), -1)",
+            "images": []
+          },
+          {
+            "text": "cv2.drawCircle(image, (300, 300), 200, (255, 0, 0), 2)",
+            "images": []
+          },
+          {
+            "text": "cv2.circle(image, (300, 300), 200, (0, 0, 255), 5)",
+            "images": []
+          },
+          {
+            "text": "cv2.drawCircle(image, (300, 300), 200, (0, 255, 0), 0)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากเราสั่ง np.shape แล้วได้ผลัพธ์เป็น (5,4,3) ข้อใดถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ภาพมีขนาด 3x4 พิกเซล และมี 5 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 4x3 พิกเซล และมี 5 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 5x3 พิกเซล และมี 4 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 5x4 พิกเซล และมี 3 ช่องสี",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 2: เล่นกับภาพ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1397852"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 3",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 3\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:34:26 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "การทำ image blur ช่วยอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ลดความคมชัดของภาพเพื่อลด noise หรือเพื่อเน้นบางส่วนของภาพ",
+            "images": []
+          },
+          {
+            "text": "เพิ่มความละเอียดของภาพ",
+            "images": []
+          },
+          {
+            "text": "ทำให้ภาพมีสีสันสดใสขึ้น",
+            "images": []
+          },
+          {
+            "text": "ปรับขนาดของภาพให้ใหญ่ขึ้น",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "สัญญาณรบกวนทั่วไปในชีวิตประจำวันมักเป็นชนิดใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Gaussian noise",
+            "images": []
+          },
+          {
+            "text": "salt and pepper noise",
+            "images": []
+          },
+          {
+            "text": "Poisson",
+            "images": []
+          },
+          {
+            "text": "Speckle",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "Erode กับ Dilate ต่างกันอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Erode ทำให้วัตถุในภาพเล็กลง ส่วน Dilate ทำให้วัตถุในภาพขยายออก",
+            "images": []
+          },
+          {
+            "text": "Erode ทำให้วัตถุในภาพขยายออก และ Dilate ทำให้วัตถุในภาพเล็กลง",
+            "images": []
+          },
+          {
+            "text": "Erode เพิ่มความคมชัดของภาพ และ Dilate ลดความคมชัดของภาพ",
+            "images": []
+          },
+          {
+            "text": "Erode ทำให้สีของภาพเข้มขึ้น และ Dilate ทำให้สีของภาพจางลง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "การทำ Histogram Equalization มีประโยชน์อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ลดความคมชัดของภาพเพื่อให้ดูนุ่มนวลขึ้น",
+            "images": []
+          },
+          {
+            "text": "ปรับขนาดของภาพให้ใหญ่ขึ้น",
+            "images": []
+          },
+          {
+            "text": "ช่วยเพิ่มความคมชัดของภาพโดยการกระจายค่า pixel ให้ครอบคลุมช่วงสีทั้งหมด",
+            "images": []
+          },
+          {
+            "text": "เพิ่มความสว่างของภาพโดยการเพิ่มความคมชัด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากต้องการทำ threshoding ด้วยค่าความเข้ม = 120 ต้องใช้คำสั่งใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY_INV)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 0, cv2.THRESH_TOZERO)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_TRUNC)",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 3: การประมวลผลภาพ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1398313"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 4",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 4\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:46:52 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "คุณลักษณะสำคัญ (Features) ของวัตถุในภาพ มักจะถูกใช้เพื่ออะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การปรับสีของภาพ",
+            "images": []
+          },
+          {
+            "text": "การสร้างโมเดล 3D จากภาพ",
+            "images": []
+          },
+          {
+            "text": "การแยกแยะและการติดตามวัตถุในภาพ",
+            "images": []
+          },
+          {
+            "text": "การปรับความละเอียดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "สถานการณ์ใดควรใช้ HSI color space",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เมื่อเราต้องการแยกสีและความสว่างของภาพ",
+            "images": []
+          },
+          {
+            "text": "เมื่อเราต้องการเพิ่มความคมชัดของภาพ",
+            "images": []
+          },
+          {
+            "text": "เมื่อเราต้องการทำการบีบอัดภาพ",
+            "images": []
+          },
+          {
+            "text": "เมื่อเราต้องการเปลี่ยนขนาดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "เทคนิคใดที่ใช้สำหรับการตรวจจับขอบในภาพโดยการคำนวณการเปลี่ยนแปลงความเข้มของพิกเซล",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ฟิลเตอร์ Gaussian",
+            "images": []
+          },
+          {
+            "text": "ฟิลเตอร์ Sobel",
+            "images": []
+          },
+          {
+            "text": "ฟิลเตอร์ Median",
+            "images": []
+          },
+          {
+            "text": "ฟิลเตอร์ Laplacian",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "การตรวจจับขอบโดยใช้ Laplacian Kernet นั้นมีหลักการทำงานอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "วิเคราะห์ความเข้มของพิกเซลในแนวขวาง",
+            "images": []
+          },
+          {
+            "text": "หาการเปลี่ยนแปลงความเข้มของจุดภาพในแนวขวางและแนวนอน",
+            "images": []
+          },
+          {
+            "text": "ใช้ฟิลเตอร์ Gaussian เพื่อเบลอภาพ",
+            "images": []
+          },
+          {
+            "text": "ใช้ฟิลเตอร์ที่เน้นการเปลี่ยนแปลงในระดับสี",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "ข้อใดไม่ใช่คำสั่งในการทำ edge detection ใน OpenCV",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "cv2.Canny()",
+            "images": []
+          },
+          {
+            "text": "cv2.Sobel()",
+            "images": []
+          },
+          {
+            "text": "cv2.Laplacian()",
+            "images": []
+          },
+          {
+            "text": "cv2.dilate()",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 4: การสกัดคุณลักษณะในภาพ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1398342"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 5",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 5\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 03:57:18 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "ในเทคนิคการลบฉากหลัง ข้อมูลใดถูกใช้เป็นพื้นฐานในการตรวจจับการเคลื่อนที่",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "โมเดลพื้นหลัง (background model)",
+            "images": []
+          },
+          {
+            "text": "ขอบเขตของวัตถุ",
+            "images": []
+          },
+          {
+            "text": "ค่าเฉลี่ยของสี",
+            "images": []
+          },
+          {
+            "text": "การเปลี่ยนแปลงของความสว่าง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ในการคำนวณออปติคอลโฟร์ มีการตั้งสมมติฐานเกี่ยวกับการเคลื่อนที่ของจุดภาพเพื่อนบ้านอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "มีเวกเตอร์การเคลื่อนที่ที่แตกต่าง",
+            "images": []
+          },
+          {
+            "text": "มีเวกเตอร์การเคลื่อนที่ที่เหมือนกัน",
+            "images": []
+          },
+          {
+            "text": "มีการเปลื่ยนแปลงของสี",
+            "images": []
+          },
+          {
+            "text": "ไม่มีการเปลี่ยนแปลงของความสว่าง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "Background subtraction กับ Optical flow ต่างกันอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Background subtraction ใช้ในการแยกวัตถุจากพื้นหลัง โดยการเปรียบเทียบภาพปัจจุบันกับภาพพื้นหลัง, ขณะที่ Optical flow ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ ขณะที่ Optical flow ใช้ในการแยกวัตถุจากพื้นหลัง",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการลด noise ในภาพ ขณะที่ Optical flow ใช้ในการเพิ่มความคมชัดของภาพ",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการเปลี่ยนสีของภาพ ขณะที่ Optical flow ใช้ในการปรับขนาดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ใน OpenCV คำสั่งใดไม่เกี่ยวกับการทำออปติคอลโฟร์",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "cv2.calcOpticalFlowFarneback()",
+            "images": []
+          },
+          {
+            "text": "cv2.calcOpticalFlowPyrLK()",
+            "images": []
+          },
+          {
+            "text": "cv2.GaussianBlur()",
+            "images": []
+          },
+          {
+            "text": "cv2.calcOpticalFlowSparseToDense()",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "ในการคำนวณออปติคอลโฟร์ สมมุติฐานใดที่เกี่ยวข้องกับการรักษาค่าความสว่างระหว่างเฟรม",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ค่าความสว่างคงตัว (Brightness constancy)",
+            "images": []
+          },
+          {
+            "text": "เคลื่อนที่เพียงเล็กน้อย (Small motion)",
+            "images": []
+          },
+          {
+            "text": "จุดภาพเพื่อนบ้านไปด้วยกัน (Spatial coherence)",
+            "images": []
+          },
+          {
+            "text": "ความคมชัดของภาพ (Image sharpness)",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 5: เล่นกับวิดีโอ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1398363"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 6",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 6\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 04:10:03 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "เราวัดความแม่นยำ (Accuracy) ในการจำแนกประเภทวัตถุในภาพ (Image Classification) ได้อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "อัตราส่วนของจำนวนพิกเซลที่ถูกต้องต่อจำนวนพิกเซลทั้งหมด",
+            "images": []
+          },
+          {
+            "text": "อัตราส่วนของจำนวนการทำนายที่ถูกต้องต่อจำนวนการทำนายทั้งหมด",
+            "images": []
+          },
+          {
+            "text": "อัตราส่วนของจำนวนการคาดการณ์ที่ผิดพลาดต่อจำนวนการคาดการณ์ทั้งหมด",
+            "images": []
+          },
+          {
+            "text": "จำนวนของฟีเจอร์ที่ใช้ในการฝึกโมเดล",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดไม่ใช่ Image classification model",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "VGG",
+            "images": []
+          },
+          {
+            "text": "ResNet",
+            "images": []
+          },
+          {
+            "text": "YOLO",
+            "images": []
+          },
+          {
+            "text": "Inception",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "Precision กับ Recall ต่างกันอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นลบ ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ถ้าโมเดลมีค่า Accuracy สูง แต่ค่า Precision และ Recall ต่ำ อาจหมายความว่าอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "โมเดลมีความสามารถในการจำแนกประเภทต่ำ",
+            "images": []
+          },
+          {
+            "text": "โมเดลมีการทำงานดีในทุกประเภท",
+            "images": []
+          },
+          {
+            "text": "ข้อมูลที่ใช้ในการฝึกมีความไม่สมดุล (Imbalanced Data)",
+            "images": []
+          },
+          {
+            "text": "โมเดลมีการตรวจจับวัตถุที่ไม่ต้องการ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "พิจารณา Confusion Matrix ด้านล่างนี้และคำนวณค่า Percision สำหรับคลาส Positive",
+        "images": [
+          "https://www.mycourseville.com/sites/all/modules/courseville/files/ckfinder/userfiles/PLATFORM--Bc38LcrF3tfQtOLhWjxdNVqvcVJEzu4NSCFjWuKz/images/Screenshot%202024-09-13%20102703_66e3b278c77d9.png"
+        ],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "0.84",
+            "images": []
+          },
+          {
+            "text": "0.80",
+            "images": []
+          },
+          {
+            "text": "0.75",
+            "images": []
+          },
+          {
+            "text": "0.87",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 6: รู้จำภาพ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1400176"
+  },
+  {
+    "title": "แบบทดสอบท้ายบท บทที่ 7",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบท้ายบท บทที่ 7\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 04:19:36 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "mIoU แตกต่างจาก IoU อย่างไร?",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "mIoU ใช้วัดความแม่นยำเฉพาะตำแหน่งเท่านั้น",
+            "images": []
+          },
+          {
+            "text": "mIoU ไม่สามารถใช้เปรียบเทียบโมเดลได้",
+            "images": []
+          },
+          {
+            "text": "mIoU เป็นค่าเฉลี่ยของ IoU จากทุกคลาส",
+            "images": []
+          },
+          {
+            "text": "IoU ใช้วัดความแม่นยำเฉพาะตำแหน่งเท่านั้น",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใด ไม่ใช่ ข้อดีของการใช้ Library เพื่อเทรน Object Detection?",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "มีโมเดลที่ผ่านการฝึกมาแล้วให้ใช้",
+            "images": []
+          },
+          {
+            "text": "ทำให้ได้โมเดลที่มีความแม่นยำที่ดีเสมอ",
+            "images": []
+          },
+          {
+            "text": "รองรับการทำงานร่วมกับ GPU",
+            "images": []
+          },
+          {
+            "text": "มีเครื่องมือช่วยวิเคราะห์ผลลัพธ์",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ลักษณะของ Dataset ในรูปแบบ YOLO เป็นอย่างไร?",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ไฟล์ภาพจะต้องเป็นไฟล์ .jpg เท่านั้น และข้อมูล annotation จะถูกเก็บในไฟล์ .csv",
+            "images": []
+          },
+          {
+            "text": "ไฟล์ annotation จะเก็บข้อมูลในรูปแบบ JSON โดยใช้คีย์ \"coordinates\" และ \"class_id\"",
+            "images": []
+          },
+          {
+            "text": "ข้อมูลในไฟล์ annotation จะเก็บในรูปแบบค่าพิกัดของจุดมุมของ bounding box ในพิกเซล",
+            "images": []
+          },
+          {
+            "text": "ไฟล์ภาพและไฟล์ annotation จะต้องมีชื่อเดียวกัน แต่ต่างนามสกุล (เช่น image1.jpg และ image1.txt)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ทำไม YOLO จึงเป็นที่นิยมในการทำ Object Detection?",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "YOLO ใช้หลายโมเดลในการตรวจจับตำแหน่งและประเภทของวัตถุ",
+            "images": []
+          },
+          {
+            "text": "YOLO สามารถตรวจจับวัตถุหลายๆ ชนิดในภาพเดียวได้ด้วยโมเดลเดียว",
+            "images": []
+          },
+          {
+            "text": "YOLO มีความแม่นยำสูงกว่ารูปแบบ Object Detection อื่นๆ",
+            "images": []
+          },
+          {
+            "text": "YOLO ต้องใช้เวลาประมวลผลหลายครั้งเพื่อให้ได้ผลลัพธ์ที่แม่นยำ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากโมเดลสามารถเรียนรู้ได้ดีในชุดข้อมูล validation แต่มีความแม่นยำต่ำในชุดข้อมูล test ควรใช้เทคนิคใดเพื่อปรับปรุงประสิทธิภาพของโมเดล?",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การใช้เทคนิค Early Stopping",
+            "images": []
+          },
+          {
+            "text": "การลดจำนวน Epoch",
+            "images": []
+          },
+          {
+            "text": "การใช้ Regularization เช่น L2 หรือ Dropout",
+            "images": []
+          },
+          {
+            "text": "การใช้เทคนิค Cross-Validation",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบท้ายบท บทที่ 7: ตรวจจับวัตถุ",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1611795"
+  },
+  {
+    "title": "แบบทดสอบหลังเรียน (Post-Test)",
+    "headerInfo": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น\nแบบทดสอบหลังเรียน (Post-Test)\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on18-Oct-2026 @ 04:29:09 and obtained 19 correct answers out of 20 .\nThis test/quiz can be taken many times.\nThe maximum number of submissions is set at 3 submissions within 8 hours.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้องที่สุด",
+    "items": [
+      {
+        "number": "1",
+        "question": "คอมพิวเตอร์วิชันทำหน้าที่อะไรในการประมวลผลข้อมูล",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "การอ่านและเข้าใจเสียง",
+            "images": []
+          },
+          {
+            "text": "การวิเคราะห์และตีความภาพหรือวิดีโอ",
+            "images": []
+          },
+          {
+            "text": "การสร้างข้อมูลจากตัวอักษร",
+            "images": []
+          },
+          {
+            "text": "การควบคุมอุปกรณ์ไฟฟ้า",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดไม่ได้ใช้เทคโนโลยีคอมพิวเตอร์วิชัน",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "รถขับเคลื่อนอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "โปรแกรมตรวจจับ Spam mail อัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "เครื่องสแกนใบหน้า",
+            "images": []
+          },
+          {
+            "text": "กล้องอ่านป้ายทะเบียนรถยนต์",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดเป็นแอปพลิเคชันของคอมพิวเตอร์วิชัน",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "การแปลภาษา",
+            "images": []
+          },
+          {
+            "text": "การประมวลผลเสียง",
+            "images": []
+          },
+          {
+            "text": "การขับรถอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "chatbot",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "หากต้องการวาดวงกลมสีเขียวบนภาพ รัศมี 200 และมีจุดศูนย์กลางอยู่ที่ (300,300) ควรใช้คำสั่งใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "cv2.circle(image, (300, 300), 200, (0, 255, 0), -1)",
+            "images": []
+          },
+          {
+            "text": "cv2.drawCircle(image, (300, 300), 200, (255, 0, 0), 2)",
+            "images": []
+          },
+          {
+            "text": "cv2.circle(image, (300, 300), 200, (0, 0, 255), 5)",
+            "images": []
+          },
+          {
+            "text": "cv2.drawCircle(image, (300, 300), 200, (0, 255, 0), 0)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากเราใช้ 5 บิตในการแทนค่าจุดภาพของภาพเฉดเทา (grayscale image) แต่ละจุดภาพจะมีเฉดได้กี่เฉด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "32 เฉด",
+            "images": []
+          },
+          {
+            "text": "64 เฉด",
+            "images": []
+          },
+          {
+            "text": "128 เฉด",
+            "images": []
+          },
+          {
+            "text": "256 เฉด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "6",
+        "question": "หากใช้ข้อมูลขนาด 2 Byte เก็บค่าความสว่างของจุดภาพ จุดภาพที่มีค่าต่อไปนี้ 0,126,255 มีสีใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ดำ, เทา, ขาว",
+            "images": []
+          },
+          {
+            "text": "ขาว, เทา, ดำ",
+            "images": []
+          },
+          {
+            "text": "ดำ, เทาเข้ม, เทาอ่อน",
+            "images": []
+          },
+          {
+            "text": "ขาว, เทาอ่อน, เทาเข้ม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "7",
+        "question": "ใน OpenCV คำสั่งใดที่ใช้เปิดภาพและบันทึกภาพ",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "cv2.imread() และ cv2.imwrite()",
+            "images": []
+          },
+          {
+            "text": "cv2.open() และ cv2.save()",
+            "images": []
+          },
+          {
+            "text": "cv2.load() และ cv2.saveimage()",
+            "images": []
+          },
+          {
+            "text": "cv2.readimage() และ cv2.writeimage()",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "8",
+        "question": "หากเราสั่ง np.shape แล้วได้ผลลัพธ์เป็น (5,4,3) ข้อใดถูกต้อง",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ภาพมีขนาด 3x4 พิกเซล และมี 5 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 4x3 พิกเซล และมี 5 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 5x3 พิกเซล และมี 4 ช่องสี",
+            "images": []
+          },
+          {
+            "text": "ภาพมีขนาด 5x4 พิกเซล และมี 3 ช่องสี",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "9",
+        "question": "การทำ image blur ช่วยอะไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ลดความคมชัดของภาพเพื่อลด noise หรือเพื่อเน้นบางส่วนของภาพ",
+            "images": []
+          },
+          {
+            "text": "เพิ่มความละเอียดของภาพ",
+            "images": []
+          },
+          {
+            "text": "ทำให้ภาพมีสีสันสดใสขึ้น",
+            "images": []
+          },
+          {
+            "text": "ปรับขนาดของภาพให้ใหญ่ขึ้น",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "question": "สัญญาณรบกวนทั่วไปในชีวิตประจำวันมักเป็นชนิดใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Gaussian noise",
+            "images": []
+          },
+          {
+            "text": "salt and pepper noise",
+            "images": []
+          },
+          {
+            "text": "Poisson",
+            "images": []
+          },
+          {
+            "text": "Speckle",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "question": "หากต้องการทำ thresholding ด้วยค่าความเข้ม =120 ต้องใช้คำสั่งใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY_INV)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 0, cv2.THRESH_TOZERO)",
+            "images": []
+          },
+          {
+            "text": "cv2.threshold(image, 120, 255, cv2.THRESH_TRUNC)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "question": "คุณลักษณะสำคัญ (Features) ของวัตถุในภาพ มักจะถูกใช้เพื่ออะไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "การปรับสีของภาพ",
+            "images": []
+          },
+          {
+            "text": "การสร้างโมเดล 3D จากภาพ",
+            "images": []
+          },
+          {
+            "text": "การแยกแยะและการติดตามวัตถุในภาพ",
+            "images": []
+          },
+          {
+            "text": "การปรับความละเอียดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "question": "การตรวจจับขอบโดยใช้ Laplacian Kernel นั้นมีหลักการทำงานอย่างไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "วิเคราะห์ความเข้มของพิกเซลในแนวขวาง",
+            "images": []
+          },
+          {
+            "text": "หาการเปลี่ยนแปลงความเข้มของจุดภาพในแนวขวางและแนวนอน",
+            "images": []
+          },
+          {
+            "text": "ใช้ฟิลเตอร์ Gaussian เพื่อเบลอภาพ",
+            "images": []
+          },
+          {
+            "text": "ใช้ฟิลเตอร์ที่เน้นการเปลี่ยนแปลงในระดับสี",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "14",
+        "question": "ข้อใดไม่ใช่คำสั่งในการทำ edge detection ใน OpenCV",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "cv2.Canny()",
+            "images": []
+          },
+          {
+            "text": "cv2.Sobel()",
+            "images": []
+          },
+          {
+            "text": "cv2.Laplacian()",
+            "images": []
+          },
+          {
+            "text": "cv2.dilate()",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "question": "Background subtraction กับ Optical Flow ต่างกันอย่างไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Background subtraction ใช้ในการแยกวัตถุจากพื้นหลัง โดยการเปรียบเทียบภาพปัจจุบันกับภาพพื้นหลัง, ขณะที่ Optical flow ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ ขณะที่ Optical flow ใช้ในการแยกวัตถุจากพื้นหลัง",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการลด noise ในภาพ ขณะที่ Optical flow ใช้ในการเพิ่มความคมชัดของภาพ",
+            "images": []
+          },
+          {
+            "text": "Background subtraction ใช้ในการเปลี่ยนสีของภาพ ขณะที่ Optical flow ใช้ในการปรับขนาดของภาพ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "16",
+        "question": "ใน OpenCV คำสั่งใดไม่เกี่ยวกับการทำออปติคอลโฟร์",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "cv2.calcOpticalFlowFarneback()",
+            "images": []
+          },
+          {
+            "text": "cv2.calcOpticalFlowPyrLK()",
+            "images": []
+          },
+          {
+            "text": "cv2.GaussianBlur()",
+            "images": []
+          },
+          {
+            "text": "cv2.calcOpticalFlowSparseToDense()",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "17",
+        "question": "ในการคำนวณออปติคอลโฟร์ สมมุติฐานใดที่เกี่ยวข้องกับการรักษาค่าความสว่างระหว่างเฟรม",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ค่าความสว่างคงตัว (Brightness constancy)",
+            "images": []
+          },
+          {
+            "text": "เคลื่อนที่เพียงเล็กน้อย (Small motion)",
+            "images": []
+          },
+          {
+            "text": "จุดภาพเพื่อนบ้านไปด้วยกัน (Spatial coherence)",
+            "images": []
+          },
+          {
+            "text": "ความคมชัดของภาพ (Image sharpness)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "18",
+        "question": "ข้อใดไม่ใช่ Image classification model",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "VGG",
+            "images": []
+          },
+          {
+            "text": "ResNet",
+            "images": []
+          },
+          {
+            "text": "YOLO",
+            "images": []
+          },
+          {
+            "text": "Inception",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "19",
+        "question": "Percision กับ Recall ต่างกันอย่างไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นลบ ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง",
+            "images": []
+          },
+          {
+            "text": "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "20",
+        "question": "ถ้าโมเดลมีค่า Accuracy สูง แต่ค่า Precision และ Recall ต่ำ อาจหมายความว่าอะไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "โมเดลมีความสามารถในการจำแนกประเภทต่ำ",
+            "images": []
+          },
+          {
+            "text": "โมเดลมีการทำงานดีในทุกประเภท",
+            "images": []
+          },
+          {
+            "text": "ข้อมูลที่ใช้ในการฝึกมีความไม่สมดุล (Imbalanced Data)",
+            "images": []
+          },
+          {
+            "text": "โมเดลมีการตรวจจับวัตถุที่ไม่ต้องการ",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบหลังเรียน (Post-Test)",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1400300"
+  }
+]

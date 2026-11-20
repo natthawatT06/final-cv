@@ -1,0 +1,3124 @@
+[
+  {
+    "title": "แบบทดสอบก่อนเรียน (Pre-test)",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบก่อนเรียน (Pre-test)\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:27:14 and obtained 12 correct answers out of 12 .\nThis test/quiz can be taken ONLY ONCE.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ Python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Python เป็น General-purpose programming language",
+            "images": []
+          },
+          {
+            "text": "Python เป็น Multi-paradigm programming language",
+            "images": []
+          },
+          {
+            "text": "Python จัดเป็น Low-level language",
+            "images": []
+          },
+          {
+            "text": "ไม่มีข้อใดผิด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดเป็นความสามารถของ Jupyter Notebook",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. แสดงเนื้อหาที่มีการจัดรูปแบบเช่น ตัวหนา ตัวเอียง",
+            "images": []
+          },
+          {
+            "text": "b. แปลและรันโปรแกรมในภาษาคอมพิวเตอร์หลายภาษา",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "โปรแกรม Python ต่อไปนี้ให้ผลลัพธ์อะไร\n\nprint(\"Hello\")\n   print(\"World\")\nprint(\"FromJupyter\")",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "แสดงข้อความ 3 ข้อความ ได้แก่ Hello, World, และ FromJupyter ข้อความละบรรทัด",
+            "images": []
+          },
+          {
+            "text": "แสดงข้อความ HelloWorldFromJupyter ในบรรทัดเดียว",
+            "images": []
+          },
+          {
+            "text": "แสดงข้อความ Hello World FromJupyter ในบรรทัดเดียว",
+            "images": []
+          },
+          {
+            "text": "โปรแกรมเกิด error",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับ data type",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ภาษาคอมพิวเตอร์ทุกภาษารองรับจำนวนและความหลากหลายของ Data type เหมือน ๆ กัน",
+            "images": []
+          },
+          {
+            "text": "การเลือกใช้ Data type ที่เหมาะสมไม่ได้มีส่วนช่วยป้องกันการทำงานผิดพลาดของโปรแกรม แต่ช่วยให้ประสิทธิภาพการทำงานเร็วขึ้น",
+            "images": []
+          },
+          {
+            "text": "ภาษา Python มีการนิยาม Data type พื้นฐานไว้เพื่อรองรับตัวเลข ข้อความ และ ค่าความจริงเท่านั้น",
+            "images": []
+          },
+          {
+            "text": "Python สามารถตีความ Data type ประเภทตัวเลขและข้อความได้จากรูปแบบข้อมูลที่เราพิมพ์ในโปรแกรม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "จงประมวลผลค่า expression (ในภาษา Python) ต่อไปนี้\n\n5 + 1 ** 2 / 2",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "18.0",
+            "images": []
+          },
+          {
+            "text": "5.0",
+            "images": []
+          },
+          {
+            "text": "5.5",
+            "images": []
+          },
+          {
+            "text": "6.0",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "6",
+        "question": "ข้อใดเกิด implicit data type conversion และผลลัพธ์มี data type ใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "4.0 + 4.0 ผลลัพธ์เป็น int",
+            "images": []
+          },
+          {
+            "text": "4.0 + 4.5 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3 + 4.0 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3 + 4.0 ผลลัพธ์เป็น int",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "7",
+        "question": "กำหนดให้ S = 'Dog' ข้อใดคือผลลัพธ์ของ S[:1].find('g')",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "-1",
+            "images": []
+          },
+          {
+            "text": "0",
+            "images": []
+          },
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "8",
+        "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ while loop",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "while loop จะทำตามคำสั่งใน loop เมื่อเงื่อนไขเป็นจริง",
+            "images": []
+          },
+          {
+            "text": "while loop เป็น definite loop",
+            "images": []
+          },
+          {
+            "text": "while loop ต้องมี iteration variable เพื่อให้สามารถหลุดออกจาก loop ได้",
+            "images": []
+          },
+          {
+            "text": "ไม่มีข้อใดผิด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "9",
+        "question": "ข้อใดถูกสำหรับ dictionary",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "dictionary ไม่สามารถเก็บค่าที่เป็น list หรือ tuple ได้",
+            "images": []
+          },
+          {
+            "text": "dictionary สามารถมี key ชื่อซ้ำกันได้มากกว่า 1 key",
+            "images": []
+          },
+          {
+            "text": "dictionary สามารถเก็บค่า dictionary object อื่นได้ (nested dictionary)",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "question": "ข้อใดคือประโยชน์ของการเปิดไฟล์ด้วย keyword with",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. ไม่ต้องเรียกฟังก์ชั่น file close() เพื่อปิดไฟล์ที่เปิดไว้ หลังจากออกจาก block ของ with แล้ว",
+            "images": []
+          },
+          {
+            "text": "b. ใน block ของ with ฟังก์ชั่น readline() จะวน loop อ่านทีละบรรทัดในไฟล์ ให้โดยอัตโนมัติ และเมื่ออ่านจนสุดไฟล์แล้ว ก็จะทำการออกจาด block ของ with โดยอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้งข้อ a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้งข้อ a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "question": "จากคำสั่ง import random นั้น Python จะไปหา module ที่ชื่อ random จากตำแหน่งใดในระบบไฟล์บนเครื่อง เป็นลำดับแรก",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "site-package folder ที่เป็นที่เก็บ python library files ภายใต้ python installed folder",
+            "images": []
+          },
+          {
+            "text": "current directory",
+            "images": []
+          },
+          {
+            "text": "folder ที่ถูก set ให้อยู่ใน PYTHONPATH environment variable",
+            "images": []
+          },
+          {
+            "text": "folder ที่ python ถูก installed อยู่ ณ ปัจจุบัน",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "question": "ข้อใดเป็นกรณีที่เหมาะสมกับการใช้งานของ Lambda function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เป็นฟังก์ชั่นที่ซับซ้อนที่ต้อง implement ด้วยหลาย statements",
+            "images": []
+          },
+          {
+            "text": "ต้องการเรียกใช้อีกหลายครั้ง (reuse)",
+            "images": []
+          },
+          {
+            "text": "ต้องการใช้เพียงครั้งเดียว",
+            "images": []
+          },
+          {
+            "text": "ต้องการแชร์ใช้กับหลาย modules",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบก่อนเรียน (Pre-test)",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284422"
+  },
+  {
+    "title": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:29:03 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Python เป็น General-purpose programming language",
+            "images": []
+          },
+          {
+            "text": "Python เป็น Multi-paradigm programming language",
+            "images": []
+          },
+          {
+            "text": "Python จัดเป็น Low-level language",
+            "images": []
+          },
+          {
+            "text": "ไม่มีข้อใดผิด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับตัวแปลภาษา",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Compiler จะแปล code ทั้งโปรแกรมในทีเดียวไปเป็น Machine Language",
+            "images": []
+          },
+          {
+            "text": "Interpreter จะแปล code ทีละคำสั่งไปเป็น Machine Language",
+            "images": []
+          },
+          {
+            "text": "Interpreter จะแปล code ทั้งโปรแกรมในทีเดียวไปเป็น Machine Language",
+            "images": []
+          },
+          {
+            "text": "Python เป็นภาษาชนิด Interpreter",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "Byte code ของ python (.pyo/.pyc) จะถูก execute ที่ใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. CPU",
+            "images": []
+          },
+          {
+            "text": "b. Virtual machine",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "Dynamically-typed language หมายความว่าอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินตอน Run-Time จึงไม่ต้องกำหนดประเภทของตัวแปรก่อนใช้งาน",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินตอน Run-Time จึงต้องกำหนดประเภทของตัวแปรก่อนใช้งานเสมอ",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินก่อน Run-Time จึงต้องกำหนดประเภทของตัวแปรก่อนใช้งานเสมอ",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินก่อน Run-Time จึงไม่ต้องกำหนดประเภทของตัวแปรก่อนใช้งาน",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับการเขียนโปรแกรมด้วย Python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "หากเขียนด้วย Interactive mode จะสามารถเห็นผลลัพธ์ได้ทันที",
+            "images": []
+          },
+          {
+            "text": "Script mode จะรองรับคำสั่งเก็บไว้ใน file เพื่อให้ Python ได้ทำงานทีเดียว",
+            "images": []
+          },
+          {
+            "text": "IDLE และ Jupyter notebook จัดเป็น IDE",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284428"
+  },
+  {
+    "title": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: Python และ โปรแกรม Jupyter Notebook\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:29:54 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดเป็นเว็ปสำหรับติดตั้ง Python และ Jupyter notebook",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. Python.org",
+            "images": []
+          },
+          {
+            "text": "b. Jupyter.org",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "Python ที่จะใช้ในการเรียนการสอนนี้เป็น python version ใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Python 1",
+            "images": []
+          },
+          {
+            "text": "Python 2",
+            "images": []
+          },
+          {
+            "text": "Python 3",
+            "images": []
+          },
+          {
+            "text": "Python 4",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดกล่าวผิดเกี่ยวกับการเปิด jupyter noteboook",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เปิดผ่าน command prompt หรือ terminal",
+            "images": []
+          },
+          {
+            "text": "ให้เปิด command prompt หรือ terminal ทิ้งไว้เพื่อใช้งาน jupyter notebook",
+            "images": []
+          },
+          {
+            "text": "pip install notebook เป็นคำสั่งสำหรับเปิด jupyter notebook",
+            "images": []
+          },
+          {
+            "text": "กด control + c เพื่อ shutdown jupyter notebook server",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "PyPI คืออะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. Python Package Index",
+            "images": []
+          },
+          {
+            "text": "b. คลังรวบรวม libraries ต่าง ๆ ของ python",
+            "images": []
+          },
+          {
+            "text": "คู่มือการใช้ python",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากต้องการระบุว่าให้เรียกใช้ module จาก python3 ต้องใช้คำสั่งใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "python3 -m",
+            "images": []
+          },
+          {
+            "text": "m -python3",
+            "images": []
+          },
+          {
+            "text": "python3 -md",
+            "images": []
+          },
+          {
+            "text": "python3 -dm",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284434"
+  },
+  {
+    "title": "แบบทดสอบ: ทำความรู้จัก Jupyter Notebook",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: ทำความรู้จัก Jupyter Notebook\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:30:54 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "อะไรเป็นหัวใจหลักที่ทำให้ Jupyter notebook เข้าใจภาษาโปรแกรมภาษาต่าง ๆ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Ipython",
+            "images": []
+          },
+          {
+            "text": "ไฟล์ config",
+            "images": []
+          },
+          {
+            "text": "Kernel",
+            "images": []
+          },
+          {
+            "text": "Python",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดบรรยาย Jupyter notebook ได้ถูกต้องที่สุด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Jupyter notebook เป็นโปรแกรมที่ให้เราสามารถเขียนโปรแกรมและเนื้อความอื่น ๆ ผ่านส่วนติดติดต่อผู้ใช้บน Web browser",
+            "images": []
+          },
+          {
+            "text": "Jupyter notebook เป็นโปรแกรมประเภท Word processor ทางเลือกที่ไม่มีค่าใช้จ่ายในการใช้งาน",
+            "images": []
+          },
+          {
+            "text": "Jupyter notebook เป็นโปรแกรมที่จำเป็นในการเขียนโปรแกรมภาษา Python แบบ Interactive",
+            "images": []
+          },
+          {
+            "text": "Jupyter notebook เป็นโปรแกรมแปลภาษา Python ที่ทำงานบนระบบปฏิบัติการ Windows",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "สมุดโน้ตใน Jupyter notebook ถูกบันทึกในไฟล์นามสกุลใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": ".jupyter",
+            "images": []
+          },
+          {
+            "text": ".txt",
+            "images": []
+          },
+          {
+            "text": ".ipynb",
+            "images": []
+          },
+          {
+            "text": ".py",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: ทำความรู้จัก Jupyter Notebook",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284439"
+  },
+  {
+    "title": "แบบทดสอบ: การควบคุม Jupyter Notebook",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การควบคุม Jupyter Notebook\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:31:51 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "cell ประเภทใดใน Jupyter notebook ที่เหมาะสมในการเขียนบรรยายเนื้อหา",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Text cell",
+            "images": []
+          },
+          {
+            "text": "Descriptive Cell",
+            "images": []
+          },
+          {
+            "text": "Code cell",
+            "images": []
+          },
+          {
+            "text": "Markdown cell",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "Code cell ใน Jupyter notebook มีไว้สำหรับงานใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "คัดลอกเนื้อความจาก Cell อื่น",
+            "images": []
+          },
+          {
+            "text": "การปิดปังเนื้อความที่เป็นความลับ",
+            "images": []
+          },
+          {
+            "text": "บรรยายเนื้อหา",
+            "images": []
+          },
+          {
+            "text": "เขียนโปรแกรม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ถ้าสมุดโน้ต ณ ตอนนี้มี 3 cell และ cell ปัจจุบันอยู่ที่ cell ท้ายสุด หลังจากที่รัน cell ปัจจุบันด้วยการกดปุ่ม Shift+Enter สมุดโน้ตจะมีกี่ cell",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          },
+          {
+            "text": "5",
+            "images": []
+          },
+          {
+            "text": "4",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การควบคุม Jupyter Notebook",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284443"
+  },
+  {
+    "title": "แบบทดสอบ: จัดรูปแบบด้วย Markdown",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: จัดรูปแบบด้วย Markdown\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:32:41 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดเป็นคีย์ลัดที่ใช้ในการเปลี่ยนประเภทของ cell ขณะอยู่ใน Command mode",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Shift + Enter",
+            "images": []
+          },
+          {
+            "text": "m, y",
+            "images": []
+          },
+          {
+            "text": "Enter, Esc",
+            "images": []
+          },
+          {
+            "text": "ปุ่มลูกศรขึ้นลง",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "สัญลักษณ์ใดใช้ markdown ข้อความที่เป็นหัวข้อเรื่อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "|--|--|",
+            "images": []
+          },
+          {
+            "text": "*",
+            "images": []
+          },
+          {
+            "text": "###",
+            "images": []
+          },
+          {
+            "text": "**",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "หากต้องการแสดง block ของโค้ดใน Markdown cell เราสามารถทำได้อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ใส่เครื่องหมาย * จำนวนเท่ากันในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "ใส่ space จำนวนเท่ากันแต่ต้องอย่างน้อย 4 ตัวในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "ใส่เครื่องหมาย - และตามด้วยเว้นวรรคในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "เราไม่สามารถแสดงโค้ดใน Markdown cell ได้",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: จัดรูปแบบด้วย Markdown",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284447"
+  },
+  {
+    "title": "แบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:33:41 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "การ Debug หมายถึงอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การออกแบบขั้นตอนการทำงานของโปรแกรม",
+            "images": []
+          },
+          {
+            "text": "การเรียนรู้ไวยากรณ์ของภาษาโปรแกรม",
+            "images": []
+          },
+          {
+            "text": "การรันโปรแกรมด้วย Kernel",
+            "images": []
+          },
+          {
+            "text": "การแก้ไขข้อผิดพลาดของโปรแกรม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ภาษาโปรแกรมที่มีสมบัติ case sensitive มีลักษณะอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "มีการรองรับการพิจารณาเงื่อนไขเพื่อเลือกเส้นทางการทำงานของโปรแกรม",
+            "images": []
+          },
+          {
+            "text": "มีความซับซ้อนในการทำงานในระดับที่สูง",
+            "images": []
+          },
+          {
+            "text": "ตีความ lowercase letter และ uppercase letter ของอักษรภาษาอังกฤษตัวเดียวกันแตกต่างกัน",
+            "images": []
+          },
+          {
+            "text": "จำนวนบรรทัดของโปรแกรมส่งผลต่อประสิทธิภาพการทำงานของโปรแกรม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "เมื่อรันโปรแกรมต่อไปนี้จะเกิด Error อะไรขึ้น\n\nprint(\"Hello A\")\n    print(\"Hello B\")\nPrint(\"Hello C\")",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "name 'Print' is not defined",
+            "images": []
+          },
+          {
+            "text": "unexpected indent",
+            "images": []
+          },
+          {
+            "text": "type mismatched",
+            "images": []
+          },
+          {
+            "text": "ไม่เกิดข้อผิดพลาดใด ๆ",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284451"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Data Types",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Data Types\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:35:49 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดเป็น data type ในภาษา Python ที่ใช้สำหรับข้อความ และ ค่าความจริง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "str, bool",
+            "images": []
+          },
+          {
+            "text": "Str, Boolean",
+            "images": []
+          },
+          {
+            "text": "String, True",
+            "images": []
+          },
+          {
+            "text": "String, Boolean",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับ data type",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "การเลือกใช้ Data type ที่เหมาะสมไม่ได้มีส่วนช่วยป้องกันการทำงานผิดพลาดของโปรแกรม แต่ช่วยให้ประสิทธิภาพการทำงานเร็วขึ้น",
+            "images": []
+          },
+          {
+            "text": "ภาษา Python มีการนิยาม Data type พื้นฐานไว้เพื่อรองรับตัวเลข ข้อความ และ ค่าความจริงเท่านั้น",
+            "images": []
+          },
+          {
+            "text": "ภาษาคอมพิวเตอร์ทุกภาษารองรับจำนวนและความหลากหลายของ Data type เหมือน ๆ กัน",
+            "images": []
+          },
+          {
+            "text": "Python สามารถตีความ Data type ประเภทตัวเลขและข้อความได้จากรูปแบบข้อมูลที่เราพิมพ์ในโปรแกรม",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดไม่ใช่ data type สำหรับตัวเลขในภาษา Python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "complex",
+            "images": []
+          },
+          {
+            "text": "int",
+            "images": []
+          },
+          {
+            "text": "float",
+            "images": []
+          },
+          {
+            "text": "num",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Data Types",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284455"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Variables",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Variables\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:36:37 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับตัวแปร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ในสมุดโน้ตเล่มเดียวกัน เราสามารถใช้ค่าของตัวแปรข้าม cell ได้",
+            "images": []
+          },
+          {
+            "text": "ค่าที่ถูก assign ให้กับตัวแปรจะยังคงถูกเก็บรักษาไว้หลังจากปิดโปรแกรม Jupyter notebook",
+            "images": []
+          },
+          {
+            "text": "ในภาษา Python เราต้องสร้างตัวแปรใน statement หนึ่งก่อน ที่จะสามารถ assign ค่าให้ตัวแปรนั้นในอีก statement หนึ่งได้",
+            "images": []
+          },
+          {
+            "text": "ตัวแปรที่เก็บค่าประเภทตัวเลขจะไม่สามารถนำไปเก็บค่าข้อความในภายหลังได้",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดเป็น statement ที่ถูกต้องในการ assign ค่าให้กับตัวแปร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a , b = 1",
+            "images": []
+          },
+          {
+            "text": "a = 1, b = 1",
+            "images": []
+          },
+          {
+            "text": "a = 1 = b",
+            "images": []
+          },
+          {
+            "text": "a = b = 1",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดเป็นชื่อตัวแปรที่สามารถใช้ได้ในภาษา Python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "1_or_2",
+            "images": []
+          },
+          {
+            "text": "one_or_2",
+            "images": []
+          },
+          {
+            "text": "one-or-two",
+            "images": []
+          },
+          {
+            "text": "Val-1-2",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Variables",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284459"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Operators & Expressions",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Operators & Expressions\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:37:38 and obtained 4 correct answers out of 4 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดเป็นการแสดงผลของ\n\nprint( 5 ** -1 )",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "5",
+            "images": []
+          },
+          {
+            "text": "-5",
+            "images": []
+          },
+          {
+            "text": "0.2",
+            "images": []
+          },
+          {
+            "text": "0",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดเป็นการแสดงผลของ\n\nprint( 13 // 2 )",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "1",
+            "images": []
+          },
+          {
+            "text": "6",
+            "images": []
+          },
+          {
+            "text": "6.5",
+            "images": []
+          },
+          {
+            "text": "7",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดเป็นผลลัพธ์ของโปรแกรมต่อไปนี้\n\nx = 3\nx *= 2\nprint(x)",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "5",
+            "images": []
+          },
+          {
+            "text": "6",
+            "images": []
+          },
+          {
+            "text": "9",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ข้อใดเป็น expression ในภาษา Python",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "\"3 + 5\"",
+            "images": []
+          },
+          {
+            "text": "3 + 5",
+            "images": []
+          },
+          {
+            "text": "print( 3 + 5 )",
+            "images": []
+          },
+          {
+            "text": "เป็น Expression ทุกข้อ",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม  Python: Operators & Expressions",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284464"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:38:39 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "อะไรเป็นตัวกำหนดลำดับก่อนหลังของการดำเนินการ operator ในกรณีที่มีหลายตัว",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ค่า precedence ของ operand",
+            "images": []
+          },
+          {
+            "text": "ค่าของ operand สำหรับแต่ละ operator",
+            "images": []
+          },
+          {
+            "text": "ลำดับการวาง operator ใน expression",
+            "images": []
+          },
+          {
+            "text": "ค่า precedence ของ operator",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "จงประมวลผลค่า expression ต่อไปนี้\n\n3 + 1 ** 2 / 2",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "8.0",
+            "images": []
+          },
+          {
+            "text": "3.5",
+            "images": []
+          },
+          {
+            "text": "4.0",
+            "images": []
+          },
+          {
+            "text": "3.0",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "จงประมวลผลค่า expression ต่อไปนี้\n\nnot not (3 > 5) == True",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "False",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          },
+          {
+            "text": "True",
+            "images": []
+          },
+          {
+            "text": "5",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284468"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:39:24 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับ function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เราสามารถสร้าง built-in function ได้ใน Jupyter Notebook",
+            "images": []
+          },
+          {
+            "text": "เราสามารถเรียกใช้ built-in function ได้โดยไม่ต้องสร้าง function เหล่านั้นขึ้นมาเอง",
+            "images": []
+          },
+          {
+            "text": "function เป็น data type ประเภทหนึ่งในภาษา Python",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "statement ใดเป็นการเรียกใช้ function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "x = (x + 1)",
+            "images": []
+          },
+          {
+            "text": "x = abs(x)",
+            "images": []
+          },
+          {
+            "text": "x **= x",
+            "images": []
+          },
+          {
+            "text": "x = abs.x",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดเป็นการระบุค่า argument ของ pow() แบบ Positional และผลลัพธ์ที่สอดคล้องกับมันเป็นเท่าใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "pow( base = 3, exp = 2) ผลลัพธ์เป็น 9",
+            "images": []
+          },
+          {
+            "text": "pow( exp = 3, base = 2) ผลลัพธ์เป็น 8",
+            "images": []
+          },
+          {
+            "text": "pow( 2 , 3 ) ผลลัพธ์เป็น 9",
+            "images": []
+          },
+          {
+            "text": "pow( 2 , 3 ) ผลลัพธ์เป็น 8",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ให้ function func1() มี definition ส่วนหัวเป็น\n\nfunc1( arg1 , arg2 , *arg3)\n\nในการเรียกใช้ func1() จะต้องมีการใส่ argument จำนวนกี่ค่า",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "3 ค่า",
+            "images": []
+          },
+          {
+            "text": "อย่างน้อย 3 ค่า",
+            "images": []
+          },
+          {
+            "text": "ตั้งแต่ 2 ค่าขึ้นไป",
+            "images": []
+          },
+          {
+            "text": "กี่ค่าก็ได้",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "ให้ function func2() มี definition ส่วนหัวเป็น\n\nfunc2( *arg1 , arg2 = True )\n\nในการเรียกใช้ func2() จะต้องมีการใส่ argument จำนวนกี่ค่า",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "1 ค่า",
+            "images": []
+          },
+          {
+            "text": "2 ค่า",
+            "images": []
+          },
+          {
+            "text": "อย่างน้อย 1 ค่า",
+            "images": []
+          },
+          {
+            "text": "กี่ค่าก็ได้",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284474"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:40:58 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูก",
+    "items": [
+      {
+        "number": "1",
+        "question": "\"การดำเนินการ binary operator เมื่อ operand ทั้งสองมี data type เดียวกัน จะให้ผลลัพธ์ที่มี data type เดียวกันกับ data type ของ operand ทั้งสอง\" เป็นจริงหรือเท็จ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ไม่สามารถสรุปได้ เพราะ data type ของผลลัพธ์ไม่ขึ้นกับ data type ของ operand",
+            "images": []
+          },
+          {
+            "text": "เป็นเท็จในทุก ๆ สถานการณ์",
+            "images": []
+          },
+          {
+            "text": "เป็นจริงในทุก ๆ สถานการณ์",
+            "images": []
+          },
+          {
+            "text": "เป็นจริงได้ในบางสถานการณ์ แต่ไม่เสมอไป",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "Polymorphic operator หมายถึงอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "operator ที่เกิดจากการทำงานต่อเนื่องของ operator จำนวนมากกว่า 1 ตัว",
+            "images": []
+          },
+          {
+            "text": "opeartor ที่ใช้สัญลักษณ์เดียวกัน แต่มีการดำเนินการที่เปลี่ยนไปตาม data type ของ operand ในขณะเรียกใช้งาน",
+            "images": []
+          },
+          {
+            "text": "operator ที่ดำเนินการกับ operand มากกว่า 1 ค่า",
+            "images": []
+          },
+          {
+            "text": "operator ที่ใช้ในการแปลง data type ของ expression ให้เป็น data type ต่าง ๆ ได้หลากหลาย",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "statement ใดจะเกิด error เมื่อรัน",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "print( 1 + 2 )",
+            "images": []
+          },
+          {
+            "text": "print(\" 1 \" + 2 )",
+            "images": []
+          },
+          {
+            "text": "print(\" 1 + 2 \")",
+            "images": []
+          },
+          {
+            "text": "print(\" 1 \" + \" + \" + ' 2 ')",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "ข้อใดเกิด implicit data type conversion และผลลัพธ์มี data type ใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "3 + 2.0 ผลลัพธ์เป็น int",
+            "images": []
+          },
+          {
+            "text": "3.0 + 2.5 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3 + 2.0 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3.0 + 2.0 ผลลัพธ์เป็น int",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "function ใดเป็น Typecasting function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "type()",
+            "images": []
+          },
+          {
+            "text": "cast()",
+            "images": []
+          },
+          {
+            "text": "int()",
+            "images": []
+          },
+          {
+            "text": "pow()",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284480"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:42:10 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. math เป็น built-in module ของภาษา Python ดังนั้นเราสามารถใช้ function ต่าง ๆ ใน math ได้โดยไม่ต้อง import",
+            "images": []
+          },
+          {
+            "text": "b. math เป็น built-in module ของภาษา Python ดังนั้นเราสามารถใช้ math ได้โดยไม่ต้องทำการติดตั้ง module เพิ่มเติม",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "หากเราดำเนินการ import math as m แล้ว statement ในข้อใดสามารถเรียกใช้ function ในการหารากที่สองจาก math ได้อย่างถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. m.sqrt(144)",
+            "images": []
+          },
+          {
+            "text": "b. math.sqrt(144)",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "function ที่สามารถแสดงรายละเอียดของ module ได้คือข้อใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "help()",
+            "images": []
+          },
+          {
+            "text": "type()",
+            "images": []
+          },
+          {
+            "text": "module()",
+            "images": []
+          },
+          {
+            "text": "ไม่มี function ที่สามารถทำเช่นนั้นได้ ควรหาแหล่งอ้างอิงจากอินเทอร์เน็ต",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284484"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Strings\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:43:45 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดคือผลลัพธ์ของ ‘1’ + ‘9’",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "‘19’",
+            "images": []
+          },
+          {
+            "text": "‘19’",
+            "images": []
+          },
+          {
+            "text": "‘10’",
+            "images": []
+          },
+          {
+            "text": "’1 9’",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "หากต้องการตรวจสอบความยาวของสตริงคำว่า ‘Vaccine’ ต้องใช้คำสั่งใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "length(‘Vaccine’)",
+            "images": []
+          },
+          {
+            "text": "len(’Vaccine’)",
+            "images": []
+          },
+          {
+            "text": "Length(‘Vaccine’)",
+            "images": []
+          },
+          {
+            "text": "Len(‘Vaccine’)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ให้ s = “Hello, it’s me” ข้อใดคือผลลัพธ์ของคำสั่ง s[1:-5:2]",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "“el,I”",
+            "images": []
+          },
+          {
+            "text": "“Hlo t”",
+            "images": []
+          },
+          {
+            "text": "“”",
+            "images": []
+          },
+          {
+            "text": "IndexError: string index out of range",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "กำหนดให้ S = ‘Cat’ ข้อใดไม่ถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "หากต้องการให้ S = ‘Rat’ สามารถใช้คำสั่ง S[0] = ‘R’",
+            "images": []
+          },
+          {
+            "text": "String method เช่น S.upper() จะไม่เปลี่ยนค่าในสตริง",
+            "images": []
+          },
+          {
+            "text": "หากต้องการให้ S = ’CAT’ สามารถใช้คำสั่ง S = S.upper()",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "กำหนดให้ S = ‘Dog’ ข้อใดคือผลลัพธ์ของ S[:1].find(‘g’)",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "0",
+            "images": []
+          },
+          {
+            "text": "-1",
+            "images": []
+          },
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284490"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Selection\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:45:41 and obtained 4 correct answers out of 4 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "สัญลักษณ์\n หมายถึงอะไร",
+        "images": [
+          "https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/useruploaded_course_files/2021_2/28408/materials/16_1-4994-16440473038648.PNG"
+        ],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เริ่มต้น",
+            "images": []
+          },
+          {
+            "text": "ตัดสินใจ",
+            "images": []
+          },
+          {
+            "text": "แสดงผล",
+            "images": []
+          },
+          {
+            "text": "ประมวลผล",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "หลังจากคำสั่งต่อไปนี้ x มีค่าเท่าใด\n\na = 2\nx = 0\nif a >= 2 :\n   x = 1\nelif a == 2 :\n   x = 3",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "0",
+            "images": []
+          },
+          {
+            "text": "1",
+            "images": []
+          },
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "หลังจากคำสั่งต่อไปนี้ หน้าจอจะแสดงผลอย่างไร\n\nกบร้อง = False and True \nif กบร้อง :\n    print(\"ฝนตก\")\nprint(\"อ๊บอ๊บ\")",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "อ๊บอ๊บ",
+            "images": []
+          },
+          {
+            "text": "ฝนตกอ๊บอ๊บ",
+            "images": []
+          },
+          {
+            "text": "ฝนตก",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "หลังจากคำสั่งต่อไปนี้ หน้าจอจะแสดงผลอย่างไร\n\nกบร้อง = False or True \nif not กบร้อง:\n     pass\nelse:\n     print(\"ฝนไม่ตก\", end=\".\")\n     print(\"กบไม่ร้อง\", end=\".\")",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "pass",
+            "images": []
+          },
+          {
+            "text": "ฝนไม่ตก.",
+            "images": []
+          },
+          {
+            "text": "ฝนไม่ตก.กบไม่ร้อง.",
+            "images": []
+          },
+          {
+            "text": "กบไม่ร้อง.",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284495"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Loop\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:46:16 and obtained 5 correct answers out of 5 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ while loop",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "while loop จะทำตามคำสั่งใน loop เมื่อเงื่อนไขเป็นจริง",
+            "images": []
+          },
+          {
+            "text": "while loop เป็น definite loop",
+            "images": []
+          },
+          {
+            "text": "while loop ต้องมี iteration variable เพื่อให้สามารถหลุดออกจาก loop ได้",
+            "images": []
+          },
+          {
+            "text": "ไม่มีข้อใดผิด",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "จาก code ด้านล่างนี้ “Hello While!” จะถูกแสดงผลออกมาทั้งหมดกี่ครั้ง\n\nk = 0\nwhile k < 20:\n    print(“Hello While!”)\n    k += 2",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "10 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "11 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "20 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "จะเกิด error",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "จาก code ด้านล่างนี้ “Hello For!” จะถูกแสดงผลออกมาทั้งหมดกี่ครั้ง\n\nfor i in range(1, 15, 2):\n    print(“Hello For!”)",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "7 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "8 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "9 ครั้ง",
+            "images": []
+          },
+          {
+            "text": "จะเกิด error",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "จาก code ด้านล่างนี้ จะได้ผลลัพธ์ออกมาเป็นอะไร\n\nn = 0\nfor c in “Hello For!”:\n    n += 1\nprint(n)",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "0",
+            "images": []
+          },
+          {
+            "text": "3",
+            "images": []
+          },
+          {
+            "text": "9",
+            "images": []
+          },
+          {
+            "text": "10",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "หากต้องการหลุดออกจาก loop ควรใช้คำสั่งใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "continue",
+            "images": []
+          },
+          {
+            "text": "iteration",
+            "images": []
+          },
+          {
+            "text": "stop",
+            "images": []
+          },
+          {
+            "text": "Break",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284501"
+  },
+  {
+    "title": "แบบทดสอบ: Data Collection: Lists",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: Data Collection: Lists\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:47:47 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ให้ z เป็น list ที่มีค่า [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] คำสั่งหรือชุดคำสั่งในข้อใด ที่ให้ผลลัพธ์เป็น list ที่มีค่าเฉพาะตัวเลขที่หาร 4 ได้ลงตัวจาก list z\n\na. z[ range(2,21,2) ]\n\nb. z[1::2]\n\nc. x = [ ]\n    for n in z:\n    if n % 4 == 0:\n        x = x + n\n\nd. ถูกทุกข้อ",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ข้อที่ถูกคือข้อ a.",
+            "images": []
+          },
+          {
+            "text": "ข้อที่ถูกคือข้อ b.",
+            "images": []
+          },
+          {
+            "text": "ข้อที่ถูกคือข้อ c.",
+            "images": []
+          },
+          {
+            "text": "ข้อที่ถูกคือข้อ d.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Python list เป็น immutable",
+            "images": []
+          },
+          {
+            "text": "Python list มี items ที่เป็นข้อมูลประเภท list ปนกับข้อมูลประเภทอื่นได้",
+            "images": []
+          },
+          {
+            "text": "ลำดับของ items ใน list ไม่สำคัญ",
+            "images": []
+          },
+          {
+            "text": "Python list ไม่รองรับการทำ iteration",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ฟังก์ชั่น extend กับ append ของ list ต่างกันอย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ไม่ต่างกัน ใช้แทนกันได้",
+            "images": []
+          },
+          {
+            "text": "extend สามารถใช้เพิ่ม item ลงในตำแหน่ง (index) ที่เจาะจงได้",
+            "images": []
+          },
+          {
+            "text": "append เป็นการเพิ่ม item เพียง item เดียว ต่อท้าย list",
+            "images": []
+          },
+          {
+            "text": "extend รับ parameter เป็นค่าตัวเลขค่าเดียวได้",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: Data Collection: Lists",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284505"
+  },
+  {
+    "title": "แบบทดสอบ: Data Collection: Tuples",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: Data Collection: Tuples\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:49:38 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดถูกต้องระหว่าง list และ tuple",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "list และ tuple เป็น ordered data collection",
+            "images": []
+          },
+          {
+            "text": "สามารถเพิ่มลด items ใน list และ tuple ที่ถูกสร้างมาแล้วได้",
+            "images": []
+          },
+          {
+            "text": "ให้ i1 เป็น list และ t1 เป็น tuple เราไม่สามารถรันคำสั่ง i1.append(t1) ได้ เนื่องจาก i1 และ t1 เป็น data collection คนละประเภทกัน",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดถูกต้องสำหรับ tuple",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ไม่สามารถทำ slicing กับ tuple ได้ เพราะ tuple เป็น immutable",
+            "images": []
+          },
+          {
+            "text": "สามารถทำ iteration กับ tuple โดยใช้วิธีเดียวกันกับ list ได้",
+            "images": []
+          },
+          {
+            "text": "ให้ t1 และ t2 เป็น tuple เราสามารถทำ t1+t2 เพื่อเอา items ใน t2 มาต่อลงใน tuple t1 ได้",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดถูกต้อง ถ้ารันคำสั่ง t1 = tuple('1234')",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "t1 จะมี item เดียว",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี length เท่ากับ 4 เนื่องจาก 'text' มีความยาว 4",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี 4 items ที่มีค่า 1, 2, 3 และ 4",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี 4 items ที่มีค่า '1', '2', '3' และ '4'",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: Data Collection: Tuples",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284509"
+  },
+  {
+    "title": "แบบทดสอบ: Data Collection: Dictionaries",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: Data Collection: Dictionaries\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:52:15 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดถูกสำหรับ dictionary",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "dictionary ไม่สามารถเก็บค่าที่เป็น list หรือ tuple ได้",
+            "images": []
+          },
+          {
+            "text": "dictionary สามารถมี key ชื่อซ้ำกันได้มากกว่า 1 key",
+            "images": []
+          },
+          {
+            "text": "dictionary สามารถเก็บค่า dictionary object อื่นได้ (nested dictionary)",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ให้ product เป็น dictionary ที่มีค่า {'id': 'P123', 'name': 'watch', 'price': 5000} ถ้าต้องการเพิ่ม 'color' เป็นอีก key หนึ่ง ที่มีค่า 'silver' ต้องเขียน code อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "product.add('color', 'silver')",
+            "images": []
+          },
+          {
+            "text": "product.update('color', 'silver')",
+            "images": []
+          },
+          {
+            "text": "product['color'] = 'silver'",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "จากข้อมูลในข้อ 2. ถ้าต้องการ delete key 'price' ต้องเขียน code อย่างไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "product.del('price')",
+            "images": []
+          },
+          {
+            "text": "product['price'] = None",
+            "images": []
+          },
+          {
+            "text": "product.popitem('price')",
+            "images": []
+          },
+          {
+            "text": "ผิดทุกข้อ",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: Data Collection:  Dictionaries",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284513"
+  },
+  {
+    "title": "แบบทดสอบ: Data Collection: Sets",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: Data Collection: Sets\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:52:58 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดถูกสำหรับ Python Set",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เป็น unordered data collection",
+            "images": []
+          },
+          {
+            "text": "มี items ที่มีค่าซ้ำกันได้",
+            "images": []
+          },
+          {
+            "text": "เป็น immutable data collection",
+            "images": []
+          },
+          {
+            "text": "มี item ที่เป็น set ได้ (nested set)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ให้ s1 = {'red', 'green', 'blue'} และ s2 = {'orange', 'yellow'} คำสั่งใดทำให้ t มีค่าเป็น s1 union s2",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "t = s1.union(s2)",
+            "images": []
+          },
+          {
+            "text": "t = s1 | s2",
+            "images": []
+          },
+          {
+            "text": "s1 |= s2",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ให้ s1 และ s2 เป็นตัวแปร set จากข้อ 2. ข้อใดให้ผลลัพธ์เป็น True",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "s1 <= s2",
+            "images": []
+          },
+          {
+            "text": "s2 >= s1",
+            "images": []
+          },
+          {
+            "text": "{'green'} in s1",
+            "images": []
+          },
+          {
+            "text": "s1 ^ s2 == s1 | s2",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: Data Collection:  Sets",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284517"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Functions",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Functions\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:56:11 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nจงเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดไม่ใช่ประโยชน์ของ Functions",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ทำให้กลับมาเรียกใช้งานได้ภายหลัง (reusability)",
+            "images": []
+          },
+          {
+            "text": "โปรแกรมถูกเขียนขึ้นมาเป็น modules (modularity)",
+            "images": []
+          },
+          {
+            "text": "ทำให้โปรแกรมพร้อมใช้งานได้ทุกเมื่อ (availability)",
+            "images": []
+          },
+          {
+            "text": "ทำให้ดูแลรักษาโปรแกรมได้ง่าย (maintainability)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้\n\ndef create_customer(first_name, last_name, age, is_new_customer=True):\n\nการเรียนใช้ฟังก์ชั่น create_customer ในข้อใดถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "create_customer('David', last_name='Berry')",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', 25)",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', 25, is_new_customer=False)",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', age=25)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "3. จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้\n\ndef create_customer(first_name, last_name, age, is_new_customer=True, **kwargs):\n\nข้อใดทำให้เกิด error จากการเรียนใช้ฟังก์ชั่น create_customer นี้",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "create_customer('David', last_name='Berry', age=25, title='Mr.')",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', title='Mr.', occupation='programmer')",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', age=30, is_new_customer=False)",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', 'Berry', 30, False)",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Functions",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284521"
+  },
+  {
+    "title": "แบบทดสอบ: การเขียนโปรแกรม Python: Files",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: การเขียนโปรแกรม Python: Files\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:57:43 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดคือการกำหนดค่า modes ในการเปิดไฟล์ที่จะไม่เกิด error หากยังไม่มีไฟล์ที่ต้องการเปิดนั้นอยู่แล้ว",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "r",
+            "images": []
+          },
+          {
+            "text": "r+",
+            "images": []
+          },
+          {
+            "text": "w",
+            "images": []
+          },
+          {
+            "text": "w+",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดคือประโยชน์ของการเปิดไฟล์ด้วย keyword with",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. ไม่ต้องเรียกฟังก์ชั่น file close() เพื่อปิดไฟล์ที่เปิดไว้ หลังจากออกจาก block ของ with แล้ว",
+            "images": []
+          },
+          {
+            "text": "b. ใน block ของ with ฟังก์ชั่น readline() จะวน loop อ่านทีละบรรทัดในไฟล์ ให้โดยอัตโนมัติ และเมื่ออ่านจนสุดไฟล์แล้ว ก็จะทำการออกจาด block ของ with โดยอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้งข้อ a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้งข้อ a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ถ้าเราต้องการเปิดไฟล์เพื่อเขียนข้อมูลลงไฟล์ (write-only) แบบเขียนทับข้อมูลในไฟล์ที่มีอยู่ก่อนหน้า (overwrite) ต้องเปิดไฟล์โดยใช้ mode ใด",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "'a'",
+            "images": []
+          },
+          {
+            "text": "'a+'",
+            "images": []
+          },
+          {
+            "text": "'w'",
+            "images": []
+          },
+          {
+            "text": "'w+'",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: การเขียนโปรแกรม Python: Files",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284525"
+  },
+  {
+    "title": "แบบทดสอบ: ทำความรู้จักและใช้งาน Lambda Function",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: ทำความรู้จักและใช้งาน Lambda Function\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:58:14 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดที่เป็นคุณสมบัติเฉพาะของ Lambda function แต่ไม่ใช่ของ normal defined function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ต้องมีชื่อฟังก์ชั่น",
+            "images": []
+          },
+          {
+            "text": "ฟังก์ชั่นรีเทิร์นค่าโดยไม่ต้องใช้คำสั่ง return",
+            "images": []
+          },
+          {
+            "text": "มี function parameters ได้",
+            "images": []
+          },
+          {
+            "text": "มี function parameter ได้แค่ parameter เดียว",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดเป็นกรณีที่เหมาะสมกับการใช้งานของ Lambda function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "เป็นฟังก์ชั่นที่ซับซ้อนที่ต้อง implement ด้วยหลาย statements",
+            "images": []
+          },
+          {
+            "text": "ต้องการเรียกใช้อีกหลายครั้ง (reuse)",
+            "images": []
+          },
+          {
+            "text": "ต้องการใช้เพียงครั้งเดียว",
+            "images": []
+          },
+          {
+            "text": "ต้องการแชร์ใช้กับหลาย modules",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดคือประโยชน์ของ Lambda function",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "a. กระทัดรัด ลดขนาดของ code",
+            "images": []
+          },
+          {
+            "text": "b. เขียนฟังก์ชั่นแบบลักษณะ inline ได้",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้ง a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้ง a. และ b.",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: ทำความรู้จักและใช้งาน Lambda Function",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284529"
+  },
+  {
+    "title": "แบบทดสอบ: ทำความเข้าใจ Python Modules",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: ทำความเข้าใจ Python Modules\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:58:46 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "ข้อใดคือประโยชน์ของการเขียนโปรแกรมเป็นลักษณะ modules",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ลดความซ้ำซ้อนของ code",
+            "images": []
+          },
+          {
+            "text": "ทำให้เขียนโปรแกรมไม่มี bugs",
+            "images": []
+          },
+          {
+            "text": "ทำให้โปรแกรมมี performance ดีขึ้น",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "ข้อใดถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "จะใช้ list ในโปรแกรมของเรา ต้อง import list ก่อน",
+            "images": []
+          },
+          {
+            "text": "__main__ ใน Python คือ main function ที่ใช้เริ่มต้นการทำงานของโปรแกรม",
+            "images": []
+          },
+          {
+            "text": "Python library สามารถประกอบด้วย modules (Python files) หลายๆ modules ได้",
+            "images": []
+          },
+          {
+            "text": "Python file หนึ่ง สามารถมี class ได้แค่ class เดียวเท่านั้น",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดคือลักษณะหรือผลกระทบของ recurring code",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "ทำให้ดูแลรักษา code ได้ง่าย",
+            "images": []
+          },
+          {
+            "text": "ทำให้โปรแกรมรันได้เร็วขึ้น",
+            "images": []
+          },
+          {
+            "text": "ทำให้ reuse code ได้ง่าย",
+            "images": []
+          },
+          {
+            "text": "เกิดความซ้ำซ้อนของ code",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: ทำความเข้าใจ Python Modules",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284533"
+  },
+  {
+    "title": "แบบทดสอบ: โครงสร้างและวิธีใช้งาน Python Modules",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบ: โครงสร้างและวิธีใช้งาน Python Modules\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 03:59:43 and obtained 3 correct answers out of 3 .\nThis test/quiz can be taken many times.\nCorrect answers will NOT be revealed after submission.\nThe questions in this test/quiz were arranged in a random order.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "สมมุติว่า เรามี Python file 2 files ชื่อ my_program.py และ lib.py โดยที่ my_program.py มีการ import lib.py ถ้าเรารัน my_program.py ด้วย Python interpreter ดังนี้\n\n> python my_program.py\n\nค่า __name__ system variable ใน my_program.py จะมีค่าอะไร",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "'main'",
+            "images": []
+          },
+          {
+            "text": "'lib'",
+            "images": []
+          },
+          {
+            "text": "'__main__'",
+            "images": []
+          },
+          {
+            "text": "'my_program'",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "จากคำสั่ง import random นั้น Python จะไปหา module ที่ชื่อ random จากตำแหน่งใดในระบบไฟล์บนเครื่อง เป็นลำดับแรก",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "folder ที่ถูก set ให้อยู่ใน PYTHONPATH environment variable",
+            "images": []
+          },
+          {
+            "text": "folder ที่ python ถูก installed อยู่ ณ ปัจจุบัน",
+            "images": []
+          },
+          {
+            "text": "current directory",
+            "images": []
+          },
+          {
+            "text": "site-package folder ที่เป็นที่เก็บ python library files ภายใต้ python installed folder",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ข้อใดคือลำดับขั้น scope ของ modules ใน Python จากใหญ่ไปเล็กที่ถูกต้อง",
+        "images": [],
+        "status": "CORRECT",
+        "choices": [
+          {
+            "text": "Function -> Class -> Variable",
+            "images": []
+          },
+          {
+            "text": "Package -> Class/Function -> Python File",
+            "images": []
+          },
+          {
+            "text": "Class -> Function -> Package",
+            "images": []
+          },
+          {
+            "text": "Package -> Python File -> Function",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบ: โครงสร้างและวิธีใช้งาน Python Modules",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284537"
+  },
+  {
+    "title": "แบบทดสอบหลังเรียน (Post-test)",
+    "headerInfo": "Learn Python: Language Basics and Fundamental Data Processing\nแบบทดสอบหลังเรียน (Post-test)\nNatthawat Thuisuwanpreviously submitted answers to this quiz/test on20-Sep-2026 @ 04:21:58 and obtained 20 correct answers out of 20 .\nThis test/quiz can be taken many times.\nThe maximum number of submissions is set at 3 submissions within 8 hours.\nCorrect answers will NOT be revealed after submission.\n\nเลือกคำตอบที่ถูกต้อง",
+    "items": [
+      {
+        "number": "1",
+        "question": "Dynamically-typed language หมายความว่าอะไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินตอน Run-Time จึงไม่ต้องกำหนดประเภทของตัวแปรก่อนใช้งาน",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินตอน Run-Time จึงต้องกำหนดประเภทของตัวแปรก่อนใช้งานเสมอ",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินก่อน Run-Time จึงต้องกำหนดประเภทของตัวแปรก่อนใช้งานเสมอ",
+            "images": []
+          },
+          {
+            "text": "ประเภทของตัวแปรถูกตัดสินก่อน Run-Time จึงไม่ต้องกำหนดประเภทของตัวแปรก่อนใช้งาน",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "question": "อะไรเป็นหัวใจหลักที่ทำให้ Jupyter notebook เข้าใจภาษาโปรแกรมภาษาต่าง ๆ",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Kernel",
+            "images": []
+          },
+          {
+            "text": "Python",
+            "images": []
+          },
+          {
+            "text": "Ipython",
+            "images": []
+          },
+          {
+            "text": "ไฟล์ config",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "question": "ถ้าสมุดโน้ต ณ ตอนนี้มี 5 cell และ cell ปัจจุบันอยู่ที่ cell รองสุดท้าย หลังจากที่รัน cell ปัจจุบันด้วยการกดปุ่ม Shift+Enter สมุดโน้ตจะมีกี่ cell",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "4",
+            "images": []
+          },
+          {
+            "text": "5",
+            "images": []
+          },
+          {
+            "text": "6",
+            "images": []
+          },
+          {
+            "text": "7",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "question": "หากต้องการแสดง block ของโค้ดใน Markdown cell เราสามารถทำได้อย่างไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ใส่ space จำนวนเท่ากันแต่ต้องอย่างน้อย 4 ตัวในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "ใส่เครื่องหมาย - และตามด้วยเว้นวรรคในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "ใส่เครื่องหมาย * จำนวนเท่ากันในส่วนต้นของบรรทัดของโค้ดที่อยู่ใน Block เดียวกัน",
+            "images": []
+          },
+          {
+            "text": "เราไม่สามารถแสดงโค้ดใน Markdown cell ได้",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "question": "ข้อใดเป็นผลลัพธ์ของโปรแกรมต่อไปนี้\n\nx = 2\ny = 4\ny /= x\nprint(y)",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "2",
+            "images": []
+          },
+          {
+            "text": "2.0",
+            "images": []
+          },
+          {
+            "text": "4",
+            "images": []
+          },
+          {
+            "text": "4.0",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "6",
+        "question": "expression 4 + - 1 * 4 / 2 ** 2 มีค่าเท่ากับเท่าใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "0.0",
+            "images": []
+          },
+          {
+            "text": "3.0",
+            "images": []
+          },
+          {
+            "text": "36.0",
+            "images": []
+          },
+          {
+            "text": "ไม่มีข้อถูก",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "7",
+        "question": "ให้ function funcA() มี definition ส่วนหัวเป็น funcA( *arg1 , arg2 = True ) ในการเรียกใช้ funcA() จะต้องมีการใส่ argument จำนวนกี่ค่า",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "1 ค่า",
+            "images": []
+          },
+          {
+            "text": "2 ค่า",
+            "images": []
+          },
+          {
+            "text": "อย่างน้อย 1 ค่า",
+            "images": []
+          },
+          {
+            "text": "กี่ค่าก็ได้",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "8",
+        "question": "ข้อใดเกิด implicit data type conversion และผลลัพธ์มี data type ใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "4.0 + 4.0 ผลลัพธ์เป็น int",
+            "images": []
+          },
+          {
+            "text": "4.0 + 4.5 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3 + 4.0 ผลลัพธ์เป็น float",
+            "images": []
+          },
+          {
+            "text": "3 + 4.0 ผลลัพธ์เป็น int",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "9",
+        "question": "ผลลัพธ์เมื่อรัน print(type(\"34\" + 3)) คือข้อใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "343",
+            "images": []
+          },
+          {
+            "text": "<class 'int'>",
+            "images": []
+          },
+          {
+            "text": "<class 'str'>",
+            "images": []
+          },
+          {
+            "text": "เกิด error",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "question": "หลังจากรันโปรแกรมต่อไปนี้\n\nx = 0\nfor i in range(1,1000,2):\n    if i%2 == 0:\n        x += i\n\n\nค่า x จะมีค่าเท่ากับปริมาณใด",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "ค่า x ในบรรทัดแรกของโปรแกรม",
+            "images": []
+          },
+          {
+            "text": "ผลรวมของจำนวนเต็มบวกทั้งหมดที่ไม่เกิน 1,000",
+            "images": []
+          },
+          {
+            "text": "ผลรวมของจำนวนเต็มบวกเลขคู่ที่ไม่เกิน 1,000",
+            "images": []
+          },
+          {
+            "text": "ผลรวมของจำนวนเต็มบวกเลขคี่ที่ไม่เกิน 1,000",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "question": "โปรแกรมต่อไปนี้ให้ผลลัพธ์อะไร\n\nx = 1\ny = 1000\nwhile x <= y:\n    if abs(x-y) > 500:\n        y = 100\n        continue\n    elif abs(x-y) > 10:\n        y = 5\n        continue\n    else:\n        y -= 1\n    x += 1\nprint(x)",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "3",
+            "images": []
+          },
+          {
+            "text": "4",
+            "images": []
+          },
+          {
+            "text": "250",
+            "images": []
+          },
+          {
+            "text": "500",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "question": "ข้อใดถูกต้อง",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Python list เป็น immutable",
+            "images": []
+          },
+          {
+            "text": "Python list มี items ที่เป็นข้อมูลประเภท list ปนกับข้อมูลประเภทอื่นได้",
+            "images": []
+          },
+          {
+            "text": "ลำดับของ items ใน list ไม่สำคัญ",
+            "images": []
+          },
+          {
+            "text": "Python list ไม่รองรับการทำ iteration",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "question": "ข้อใดถูกสำหรับ Python Set",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "เป็น unordered data collection",
+            "images": []
+          },
+          {
+            "text": "มี items ที่มีค่าซ้ำกันได้",
+            "images": []
+          },
+          {
+            "text": "เป็น immutable data collection",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "14",
+        "question": "ข้อใดถูกต้อง ถ้ารันคำสั่ง t1 = tuple('1234')",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "t1 จะมี item เดียว",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี length เท่ากับ 4 เนื่องจาก 'text' มีความยาว 4",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี 4 items ที่มีค่า 1, 2, 3 และ 4",
+            "images": []
+          },
+          {
+            "text": "t1 จะมี 4 items ที่มีค่า '1', '2', '3' และ '4'",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "question": "ให้ product เป็น dictionary ที่มีค่า {'id': 'P123', 'name': 'watch', 'price': 5000} ถ้าต้องการเพิ่ม 'color' เป็นอีก key หนึ่ง ที่มีค่า 'silver' ต้องเขียน code อย่างไร",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "product.add('color', 'silver')",
+            "images": []
+          },
+          {
+            "text": "product.update('color', 'silver')",
+            "images": []
+          },
+          {
+            "text": "product['color'] = 'silver'",
+            "images": []
+          },
+          {
+            "text": "ถูกทุกข้อ",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "16",
+        "question": "ข้อใดไม่ใช่ประโยชน์ของ Functions",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Reuseability",
+            "images": []
+          },
+          {
+            "text": "Modularity",
+            "images": []
+          },
+          {
+            "text": "Availability",
+            "images": []
+          },
+          {
+            "text": "Maintainability",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "17",
+        "question": "จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้\n\ndef create_customer(first_name, last_name, age, is_new_customer=True, **kwargs):\n\nข้อใดทำให้เกิด error จากการเรียนใช้ฟังก์ชั่น create_customer นี้",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "create_customer('David', last_name='Berry', age=25, title='Mr.')",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', title='Mr.', occupation='programmer')",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', last_name='Berry', age=30, is_new_customer=False)",
+            "images": []
+          },
+          {
+            "text": "create_customer('David', 'Berry', 30, False)",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "18",
+        "question": "ข้อใดคือประโยชน์ของการเปิดไฟล์ด้วย keyword with",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "a. ไม่ต้องเรียกฟังก์ชั่น file close() เพื่อปิดไฟล์ที่เปิดไว้ หลังจากออกจาก block ของ with แล้ว",
+            "images": []
+          },
+          {
+            "text": "b. ใน block ของ with ฟังก์ชั่น readline() จะวน loop อ่านทีละบรรทัดในไฟล์ ให้โดยอัตโนมัติ และเมื่ออ่านจนสุดไฟล์แล้ว ก็จะทำการออกจาด block ของ with โดยอัตโนมัติ",
+            "images": []
+          },
+          {
+            "text": "ถูกทั้งข้อ a. และ b.",
+            "images": []
+          },
+          {
+            "text": "ผิดทั้งข้อ a. และ b.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "19",
+        "question": "โปรแกรมต่อไปนี้ให้ผลลัพธ์อะไร\n\ncoor = [(1,2),(2,4),(3,6),(4,9)]\nprint(list(map(lambda i: i[1]==2*i[0] ,coor)))",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "False",
+            "images": []
+          },
+          {
+            "text": "[(1,2,3,4)]",
+            "images": []
+          },
+          {
+            "text": "[(1,2,3,4,6,9)]",
+            "images": []
+          },
+          {
+            "text": "[True, True, True, False]",
+            "images": []
+          }
+        ]
+      },
+      {
+        "number": "20",
+        "question": "ข้อใดคือลำดับขั้น scope ของ modules ใน Python จากใหญ่ไปเล็กที่ถูกต้อง",
+        "images": [],
+        "status": "UNKNOWN",
+        "choices": [
+          {
+            "text": "Class -> Function -> Package",
+            "images": []
+          },
+          {
+            "text": "Package -> Python File -> Function",
+            "images": []
+          },
+          {
+            "text": "Package -> Class/Function -> Python File",
+            "images": []
+          },
+          {
+            "text": "Function -> Class -> Variable",
+            "images": []
+          }
+        ]
+      }
+    ],
+    "quiz_name": "แบบทดสอบหลังเรียน (Post-test)",
+    "quiz_url": "https://www.mycourseville.com/?q=onlinecourse/quiz/1284559"
+  }
+]
