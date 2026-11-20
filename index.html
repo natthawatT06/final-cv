@@ -820,9 +820,7 @@
         </div>
       </div>
       <div class="header-actions">
-        <button class="tool-btn active" id="btnToggleMeme" onclick="toggleMeme()" title="เปิด/ปิดมีมสุ่มตอนเปลี่ยนข้อ">
-          🎭 มีมสุ่ม: เปิด
-        </button>
+
         <button class="tool-btn" onclick="shuffleCurrentQuestions()" title="สลับข้อสอบ">
           🔀 สุ่มข้อ
         </button>
@@ -5291,12 +5289,7 @@ window.QUIZ_DATA = [
       render();
     }
 
-    function toggleMeme() {
-      memeEnabled = !memeEnabled;
-      const btn = document.getElementById('btnToggleMeme');
-      btn.classList.toggle('active', memeEnabled);
-      btn.innerText = memeEnabled ? '🎭 มีมสุ่ม: เปิด' : '🎭 มีมสุ่ม: ปิด';
-    }
+
 
     function triggerRandomMeme() {
       if (!memeEnabled || MEME_LIST.length === 0) return;
