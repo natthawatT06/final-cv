@@ -440,13 +440,13 @@
     "course_id": "cv",
     "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
     "category": "แบบทดสอบท้ายบท บทที่ 2: เล่นกับภาพ",
-    "question": "หากใช้ข้อมูลขนาด 2 Byte เก็บค่าความสว่างของจุดภาพ จุดภาพที่มีค่าต่อไปนี้ 0,126,255 ,uu.f",
+    "question": "หากใช้ข้อมูลขนาด 2 Byte เก็บค่าความสว่างของจุดภาพ จุดภาพที่มีค่าต่อไปนี้ 0,126,255 มีสีใด",
     "images": [],
     "choices": [
-      "ดำ เทา ขาว",
-      "ขาว เทา ดำ",
-      "ดำ เทาเข้ม เทาอ่อน",
-      "ขาว เทาอ่อน เทาเข้ม"
+      "ดำ, เทา, ขาว",
+      "ขาว, เทา, ดำ",
+      "ดำ, เทาเข้ม, เทาอ่อน",
+      "ขาว, เทาอ่อน, เทาเข้ม"
     ],
     "choice_images": [
       [],
@@ -484,7 +484,7 @@
     "course_id": "cv",
     "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
     "category": "แบบทดสอบท้ายบท บทที่ 2: เล่นกับภาพ",
-    "question": "หากเราสั่ง np.shape แล้วได้ผลัพธ์เป็น (5,4,3) ข้อใดถูกต้อง",
+    "question": "หากเราสั่ง np.shape แล้วได้ผลลัพธ์เป็น (5,4,3) ข้อใดถูกต้อง",
     "images": [],
     "choices": [
       "ภาพมีขนาด 3x4 พิกเซล และมี 5 ช่องสี",
@@ -594,7 +594,7 @@
     "course_id": "cv",
     "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
     "category": "แบบทดสอบท้ายบท บทที่ 3: การประมวลผลภาพ",
-    "question": "หากต้องการทำ threshoding ด้วยค่าความเข้ม = 120 ต้องใช้คำสั่งใด",
+    "question": "หากต้องการทำ thresholding ด้วยค่าความเข้ม = 120 ต้องใช้คำสั่งใด",
     "images": [],
     "choices": [
       "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)",
@@ -682,7 +682,7 @@
     "course_id": "cv",
     "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
     "category": "แบบทดสอบท้ายบท บทที่ 4: การสกัดคุณลักษณะในภาพ",
-    "question": "การตรวจจับขอบโดยใช้ Laplacian Kernet นั้นมีหลักการทำงานอย่างไร",
+    "question": "การตรวจจับขอบโดยใช้ Laplacian Kernel นั้นมีหลักการทำงานอย่างไร",
     "images": [],
     "choices": [
       "วิเคราะห์ความเข้มของพิกเซลในแนวขวาง",
@@ -1055,138 +1055,6 @@
   },
   {
     "id": 49,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "หากใช้ข้อมูลขนาด 2 Byte เก็บค่าความสว่างของจุดภาพ จุดภาพที่มีค่าต่อไปนี้ 0,126,255 มีสีใด",
-    "images": [],
-    "choices": [
-      "ดำ, เทา, ขาว",
-      "ขาว, เทา, ดำ",
-      "ดำ, เทาเข้ม, เทาอ่อน",
-      "ขาว, เทาอ่อน, เทาเข้ม"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 2,
-    "explanation": "ข้อมูล 2 Byte ค่า 0, 126, 255 คือ ดำ, เทาเข้ม, เทาอ่อน"
-  },
-  {
-    "id": 50,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "หากเราสั่ง np.shape แล้วได้ผลลัพธ์เป็น (5,4,3) ข้อใดถูกต้อง",
-    "images": [],
-    "choices": [
-      "ภาพมีขนาด 3x4 พิกเซล และมี 5 ช่องสี",
-      "ภาพมีขนาด 4x3 พิกเซล และมี 5 ช่องสี",
-      "ภาพมีขนาด 5x3 พิกเซล และมี 4 ช่องสี",
-      "ภาพมีขนาด 5x4 พิกเซล และมี 3 ช่องสี"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 3,
-    "explanation": "Shape (5,4,3) คือ 5x4 พิกเซล 3 ช่องสี"
-  },
-  {
-    "id": 51,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "หากต้องการทำ thresholding ด้วยค่าความเข้ม =120 ต้องใช้คำสั่งใด",
-    "images": [],
-    "choices": [
-      "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)",
-      "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY_INV)",
-      "cv2.threshold(image, 120, 0, cv2.THRESH_TOZERO)",
-      "cv2.threshold(image, 120, 255, cv2.THRESH_TRUNC)"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 0,
-    "explanation": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)"
-  },
-  {
-    "id": 52,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "การตรวจจับขอบโดยใช้ Laplacian Kernel นั้นมีหลักการทำงานอย่างไร",
-    "images": [],
-    "choices": [
-      "วิเคราะห์ความเข้มของพิกเซลในแนวขวาง",
-      "หาการเปลี่ยนแปลงความเข้มของจุดภาพในแนวขวางและแนวนอน",
-      "ใช้ฟิลเตอร์ Gaussian เพื่อเบลอภาพ",
-      "ใช้ฟิลเตอร์ที่เน้นการเปลี่ยนแปลงในระดับสี"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 1,
-    "explanation": "Laplacian Kernel หาการเปลี่ยนแปลงความเข้มทั้งแนวขวางและแนวนอน"
-  },
-  {
-    "id": 53,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "Background subtraction กับ Optical Flow ต่างกันอย่างไร",
-    "images": [],
-    "choices": [
-      "Background subtraction ใช้ในการแยกวัตถุจากพื้นหลัง โดยการเปรียบเทียบภาพปัจจุบันกับภาพพื้นหลัง, ขณะที่ Optical flow ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ",
-      "Background subtraction ใช้ในการติดตามการเคลื่อนไหวของพิกเซลในภาพ ขณะที่ Optical flow ใช้ในการแยกวัตถุจากพื้นหลัง",
-      "Background subtraction ใช้ในการลด noise ในภาพ ขณะที่ Optical flow ใช้ในการเพิ่มความคมชัดของภาพ",
-      "Background subtraction ใช้ในการเปลี่ยนสีของภาพ ขณะที่ Optical flow ใช้ในการปรับขนาดของภาพ"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 0,
-    "explanation": "Background Subtraction แยกวัตถุจากพื้นหลัง ส่วน Optical Flow ติดตามการเคลื่อนไหวของพิกเซล"
-  },
-  {
-    "id": 54,
-    "course_id": "cv",
-    "course_name": "การพัฒนาโปรแกรมด้วยความสามารถของคอมพิวเตอร์วิชั่น",
-    "category": "แบบทดสอบหลังเรียน (Post-Test)",
-    "question": "Percision กับ Recall ต่างกันอย่างไร",
-    "images": [],
-    "choices": [
-      "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง",
-      "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นบวกจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก",
-      "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นลบ ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นลบอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง",
-      "Precision คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่เป็นลบจริง ขณะที่ Recall คือสัดส่วนของตัวอย่างที่ถูกจำแนกเป็นบวกอย่างถูกต้องจากทั้งหมดที่จำแนกเป็นบวก"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 0,
-    "explanation": "Precision = TP/(TP+FP), Recall = TP/(TP+FN)"
-  },
-  {
-    "id": 55,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1208,7 +1076,7 @@
     "explanation": "Python เป็น High-level programming language"
   },
   {
-    "id": 56,
+    "id": 50,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1230,7 +1098,7 @@
     "explanation": "Jupyter Notebook รองรับทั้ง Markdown และรันโค้ดได้หลายภาษา"
   },
   {
-    "id": 57,
+    "id": 51,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1252,7 +1120,7 @@
     "explanation": "บรรทัด print('World') มี Indentation ผิดพลาด"
   },
   {
-    "id": 58,
+    "id": 52,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1274,7 +1142,7 @@
     "explanation": "Python เป็น Dynamic typing อนุมานประเภทข้อมูลอัตโนมัติ"
   },
   {
-    "id": 59,
+    "id": 53,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1296,7 +1164,7 @@
     "explanation": "1**2 = 1 -> 1/2 = 0.5 -> 5 + 0.5 = 5.5"
   },
   {
-    "id": 60,
+    "id": 54,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1318,7 +1186,7 @@
     "explanation": "int + float ได้ผลลัพธ์เป็น float โดยปริยาย"
   },
   {
-    "id": 61,
+    "id": 55,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1340,7 +1208,7 @@
     "explanation": "'Dog'[:1] ได้ 'D' ซึ่งไม่มี 'g' เมธอด .find() คืนค่า -1"
   },
   {
-    "id": 62,
+    "id": 56,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1362,7 +1230,7 @@
     "explanation": "while loop เป็น indefinite loop"
   },
   {
-    "id": 63,
+    "id": 57,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1384,7 +1252,7 @@
     "explanation": "Dictionary สามารถเก็บ Dictionary อื่นซ้อนข้างในได้"
   },
   {
-    "id": 64,
+    "id": 58,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1406,7 +1274,7 @@
     "explanation": "with statement จะปิดไฟล์ให้อัตโนมัติ"
   },
   {
-    "id": 65,
+    "id": 59,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1428,7 +1296,7 @@
     "explanation": "Python ค้นหาโมดูลจาก Current Directory ก่อนเสมอ"
   },
   {
-    "id": 66,
+    "id": 60,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -1450,29 +1318,7 @@
     "explanation": "Lambda function เหมาะสำหรับฟังก์ชันนิรนาม (Anonymous) ขนาดเล็กบรรทัดเดียวที่ต้องการเรียกใช้เฉพาะจุดเพียงครั้งเดียว"
   },
   {
-    "id": 67,
-    "course_id": "python",
-    "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
-    "category": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
-    "question": "ข้อใดกล่าวไม่ถูกต้องเกี่ยวกับ python",
-    "images": [],
-    "choices": [
-      "Python เป็น General-purpose programming language",
-      "Python เป็น Multi-paradigm programming language",
-      "Python จัดเป็น Low-level language",
-      "ไม่มีข้อใดผิด"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 2,
-    "explanation": "Python เป็น High-level language"
-  },
-  {
-    "id": 68,
+    "id": 61,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
@@ -1494,7 +1340,7 @@
     "explanation": "Interpreter แปลโค้ดทีละคำสั่ง (Line by line)"
   },
   {
-    "id": 69,
+    "id": 62,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
@@ -1516,7 +1362,7 @@
     "explanation": "Bytecode ของ Python (.pyc) ถูกนำไปประมวลผลบน Python Virtual Machine (PVM)"
   },
   {
-    "id": 70,
+    "id": 63,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
@@ -1538,7 +1384,7 @@
     "explanation": "Dynamically-typed ตัดสินประเภทตัวแปรตอน Run-Time"
   },
   {
-    "id": 71,
+    "id": 64,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ความเข้าใจเกี่ยวกับการเขียนโปรแกรมและภาษา Python",
@@ -1560,7 +1406,7 @@
     "explanation": "Python รองรับ Multi-paradigm ไวยากรณ์อ่านง่าย และมี Library หลากหลาย"
   },
   {
-    "id": 72,
+    "id": 65,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
@@ -1582,7 +1428,7 @@
     "explanation": "ติดตั้งได้ทั้งจาก python.org และ Anaconda"
   },
   {
-    "id": 73,
+    "id": 66,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
@@ -1604,7 +1450,7 @@
     "explanation": "หลักสูตรและการเขียนโปรแกรมสมัยใหม่ทั้งหมดใช้ Python version 3 เป็นมาตรฐาน"
   },
   {
-    "id": 74,
+    "id": 67,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
@@ -1626,7 +1472,7 @@
     "explanation": "คำสั่ง pip install notebook ใช้สำหรับติดตั้ง ไม่ใช่คำสั่งเปิดใช้งาน คำสั่งสำหรับเปิดใช้งานคือ jupyter notebook"
   },
   {
-    "id": 75,
+    "id": 68,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
@@ -1648,7 +1494,7 @@
     "explanation": "PyPI เป็นคลังซอฟต์แวร์ของ Python"
   },
   {
-    "id": 76,
+    "id": 69,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Python และ โปรแกรม Jupyter Notebook",
@@ -1670,7 +1516,7 @@
     "explanation": "คำสั่ง python3 -m ระบุให้รันโมดูลด้วย python3"
   },
   {
-    "id": 77,
+    "id": 70,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความรู้จัก Jupyter Notebook",
@@ -1692,7 +1538,7 @@
     "explanation": "IPython Kernel เป็นตัวรันโค้ดหลักของ Jupyter Notebook"
   },
   {
-    "id": 78,
+    "id": 71,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความรู้จัก Jupyter Notebook",
@@ -1714,7 +1560,7 @@
     "explanation": "Jupyter Notebook ใช้งานผ่าน Web browser"
   },
   {
-    "id": 79,
+    "id": 72,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความรู้จัก Jupyter Notebook",
@@ -1736,7 +1582,7 @@
     "explanation": "สมุดโน้ต Jupyter บันทึกด้วยนามสกุล .ipynb"
   },
   {
-    "id": 80,
+    "id": 73,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การควบคุม Jupyter Notebook",
@@ -1758,7 +1604,7 @@
     "explanation": "Markdown cell ใช้เขียนบรรยายเนื้อหา"
   },
   {
-    "id": 81,
+    "id": 74,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การควบคุม Jupyter Notebook",
@@ -1780,7 +1626,7 @@
     "explanation": "Code cell ใน Jupyter Notebook มีไว้สำหรับเขียนและรันโค้ดคำสั่งของโปรแกรม"
   },
   {
-    "id": 82,
+    "id": 75,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การควบคุม Jupyter Notebook",
@@ -1802,7 +1648,7 @@
     "explanation": "Shift+Enter ที่ cell สุดท้ายจะรันและสร้าง cell ใหม่เพิ่มอีก 1 cell (รวมเป็น 4)"
   },
   {
-    "id": 83,
+    "id": 76,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: จัดรูปแบบด้วย Markdown",
@@ -1824,7 +1670,7 @@
     "explanation": "ใน Command Mode ของ Jupyter Notebook กดปุ่ม M เพื่อเปลี่ยนเป็น Markdown cell และกดปุ่ม Y เพื่อเปลี่ยนเป็น Code cell"
   },
   {
-    "id": 84,
+    "id": 77,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: จัดรูปแบบด้วย Markdown",
@@ -1846,7 +1692,7 @@
     "explanation": "ใน Markdown ใช้สัญลักษณ์ # นำหน้าหัวข้อเรื่อง"
   },
   {
-    "id": 85,
+    "id": 78,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: จัดรูปแบบด้วย Markdown",
@@ -1868,7 +1714,7 @@
     "explanation": "ใน Markdown การเว้นวรรคด้วย Space อย่างน้อย 4 ตัวที่ต้นบรรทัดจะแสดงข้อความเป็นบล็อกโค้ด (Indented Code Block)"
   },
   {
-    "id": 86,
+    "id": 79,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook",
@@ -1890,7 +1736,7 @@
     "explanation": "การ Debug หมายถึงกระบวนการค้นหา วิเคราะห์ และแก้ไขข้อผิดพลาด (Bugs) ในโปรแกรม"
   },
   {
-    "id": 87,
+    "id": 80,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook",
@@ -1912,7 +1758,7 @@
     "explanation": "Case-sensitive หมายถึงระบบแยกความแตกต่างระหว่างตัวอักษรพิมพ์เล็กและพิมพ์ใหญ่ของภาษาอังกฤษ เช่น Cat กับ cat ถือเป็นคนละคำ"
   },
   {
-    "id": 88,
+    "id": 81,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: เริ่มเขียนโปรแกรม Python ใน Jupyter Notebook",
@@ -1934,7 +1780,7 @@
     "explanation": "เกิดข้อผิดพลาดเพราะฟังก์ชัน print ต้องเป็นตัวพิมพ์เล็ก"
   },
   {
-    "id": 89,
+    "id": 82,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Data Types",
@@ -1956,7 +1802,7 @@
     "explanation": "str สำหรับข้อความ และ bool สำหรับค่าความจริง"
   },
   {
-    "id": 90,
+    "id": 83,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Data Types",
@@ -1978,7 +1824,7 @@
     "explanation": "num ไม่ใช่ชนิดข้อมูล (Data Type) ในภาษา Python (ชนิดข้อมูลตัวเลขได้แก่ int, float, complex)"
   },
   {
-    "id": 91,
+    "id": 84,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Variables",
@@ -2000,7 +1846,7 @@
     "explanation": "ใน Jupyter Notebook เมื่อรันตัวแปรใน cell หนึ่งแล้ว ตัวแปรนั้นจะคงอยู่ในหน่วยความจำและสามารถเรียกใช้ข้ามไปยัง cell อื่นๆ ในสมุดโน้ตเดียวกันได้"
   },
   {
-    "id": 92,
+    "id": 85,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Variables",
@@ -2022,7 +1868,7 @@
     "explanation": "รูปแบบการกำหนดค่า 'a = b = 1' เป็นไวยากรณ์ Chained Assignment ที่ถูกต้องใน Python (กำหนดให้ทั้ง a และ b มีค่าเป็น 1)"
   },
   {
-    "id": 93,
+    "id": 86,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Variables",
@@ -2044,7 +1890,7 @@
     "explanation": "ชื่อตัวแปรใน Python ต้องไม่ขึ้นต้นด้วยตัวเลข และห้ามมีเครื่องหมายยัติภังค์ (-) ดังนั้น 'one_or_2' จึงเป็นชื่อที่ถูกต้อง"
   },
   {
-    "id": 94,
+    "id": 87,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม  Python: Operators & Expressions",
@@ -2066,7 +1912,7 @@
     "explanation": "5 ** -1 คือ 5 ยกกำลัง -1 ซึ่งเท่ากับ 1/5 = 0.2 เป็นจำนวนจริง (float)"
   },
   {
-    "id": 95,
+    "id": 88,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม  Python: Operators & Expressions",
@@ -2088,7 +1934,7 @@
     "explanation": "13 // 2 คือ Floor Division ได้ 6"
   },
   {
-    "id": 96,
+    "id": 89,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม  Python: Operators & Expressions",
@@ -2110,7 +1956,7 @@
     "explanation": "ตัวดำเนินการ x *= 2 มีความหมายเทียบเท่ากับ x = x * 2 เมื่อ x เริ่มต้นเป็น 3 ค่า x จึงกลายเป็น 3 * 2 = 6"
   },
   {
-    "id": 97,
+    "id": 90,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม  Python: Operators & Expressions",
@@ -2132,7 +1978,7 @@
     "explanation": "ในภาษา Python ทั้งสตริง \"3 + 5\", นิพจน์คำนวณ 3 + 5 และการเรียกฟังก์ชัน print( 3 + 5 ) ล้วนประมวลผลแล้วคืนค่า (evaluates to a value) ออกมาได้ จึงจัดเป็น Expression ทุกข้อ"
   },
   {
-    "id": 98,
+    "id": 91,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator",
@@ -2154,7 +2000,7 @@
     "explanation": "ลำดับการทำงานถูกกำหนดด้วย Operator Precedence"
   },
   {
-    "id": 99,
+    "id": 92,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator",
@@ -2176,7 +2022,7 @@
     "explanation": "1**2 = 1 -> 1/2 = 0.5 -> 3 + 0.5 = 3.5"
   },
   {
-    "id": 100,
+    "id": 93,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: ลำดับการดำเนินการ Operator",
@@ -2198,7 +2044,7 @@
     "explanation": "not not (3 > 5) == False != True -> ได้ False"
   },
   {
-    "id": 101,
+    "id": 94,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
@@ -2220,7 +2066,7 @@
     "explanation": "Built-in function สามารถเรียกใช้ได้ทันทีไม่ต้องสร้างเอง"
   },
   {
-    "id": 102,
+    "id": 95,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
@@ -2242,7 +2088,7 @@
     "explanation": "abs(x) เป็นการเรียกใช้ฟังก์ชัน"
   },
   {
-    "id": 103,
+    "id": 96,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
@@ -2264,7 +2110,7 @@
     "explanation": "pow(2, 3) 2 ยกกำลัง 3 ได้ผลลัพธ์เป็น 8"
   },
   {
-    "id": 104,
+    "id": 97,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
@@ -2286,7 +2132,7 @@
     "explanation": "arg1 และ arg2 ต้องส่งค่า ส่วน *arg3 ส่งหรือไม่ก็ได้ รวมต้องส่งตั้งแต่ 2 ค่าขึ้นไป"
   },
   {
-    "id": 105,
+    "id": 98,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: รู้จักและเรียกใช้ Built-in Functions",
@@ -2308,7 +2154,7 @@
     "explanation": "*arg1 รับได้ตั้งแต่ 0 ค่าขึ้นไป และ arg2 มี Default Value จึงใส่กี่ค่าก็ได้"
   },
   {
-    "id": 106,
+    "id": 99,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
@@ -2330,7 +2176,7 @@
     "explanation": "เช่น int / int ใน Python 3 จะได้ผลลัพธ์เป็น float เสมอ"
   },
   {
-    "id": 107,
+    "id": 100,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
@@ -2352,7 +2198,7 @@
     "explanation": "Polymorphic operator มีการทำงานเปลี่ยนไปตามประเภทข้อมูล เช่น + ใช้บวกเลขหรือต่อสตริง"
   },
   {
-    "id": 108,
+    "id": 101,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
@@ -2374,7 +2220,7 @@
     "explanation": "ไม่สามารถนำ str มาบวกกับ int ได้โดยตรง เกิด TypeError"
   },
   {
-    "id": 109,
+    "id": 102,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การทำงานกับ Data Types หลายประเภท",
@@ -2396,7 +2242,7 @@
     "explanation": "int() เป็นฟังก์ชันแปลงชนิดข้อมูล (Typecasting)"
   },
   {
-    "id": 110,
+    "id": 103,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules",
@@ -2418,7 +2264,7 @@
     "explanation": "math เป็น Built-in module ไม่ต้องติดตั้งเพิ่มแต่ต้อง import ก่อนใช้"
   },
   {
-    "id": 111,
+    "id": 104,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules",
@@ -2440,7 +2286,7 @@
     "explanation": "เมื่อ import math as m ต้องเรียกผ่านชื่อ alias 'm.sqrt(144)'"
   },
   {
-    "id": 112,
+    "id": 105,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: การเรียกใช้ Built-in Modules",
@@ -2462,7 +2308,7 @@
     "explanation": "help() แสดงเอกสารรายละเอียดของ module หรือ function"
   },
   {
-    "id": 113,
+    "id": 106,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
@@ -2484,7 +2330,7 @@
     "explanation": "'1' + '9' นำสตริงมาต่อกันได้ '19'"
   },
   {
-    "id": 114,
+    "id": 107,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
@@ -2506,7 +2352,7 @@
     "explanation": "ฟังก์ชัน len() ใช้ตรวจสอบความยาวของสตริง"
   },
   {
-    "id": 115,
+    "id": 108,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
@@ -2528,7 +2374,7 @@
     "explanation": "s[1:-5:2] กระโดดทีละ 2 เริ่มจาก index 1 ได้ 'el,I'"
   },
   {
-    "id": 116,
+    "id": 109,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
@@ -2550,29 +2396,7 @@
     "explanation": "String เป็น Immutable ไม่สามารถแก้ไขค่าตำแหน่งด้วย S[0] = 'R'"
   },
   {
-    "id": 117,
-    "course_id": "python",
-    "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
-    "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Strings",
-    "question": "กำหนดให้ S = ‘Dog’ ข้อใดคือผลลัพธ์ของ S[:1].find(‘g’)",
-    "images": [],
-    "choices": [
-      "0",
-      "-1",
-      "2",
-      "3"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 1,
-    "explanation": "S[:1] ได้ 'D', 'D'.find('g') หาไม่พบจึงคืนค่า -1"
-  },
-  {
-    "id": 118,
+    "id": 110,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
@@ -2596,7 +2420,7 @@
     "explanation": "สี่เหลี่ยมข้าวหลามตัดใน Flowchart หมายถึงการตัดสินใจ (Decision)"
   },
   {
-    "id": 119,
+    "id": 111,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
@@ -2618,7 +2442,7 @@
     "explanation": "เงื่อนไขแรก a >= 2 เป็นจริง จึงทำ x = 1 แล้วจบ"
   },
   {
-    "id": 120,
+    "id": 112,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
@@ -2640,7 +2464,7 @@
     "explanation": "กบร้อง เป็น False บล็อก if ไม่ทำงาน จึงพิมพ์ 'อ๊บอ๊บ'"
   },
   {
-    "id": 121,
+    "id": 113,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Selection",
@@ -2662,7 +2486,7 @@
     "explanation": "not กบร้อง เป็น False จึงเข้าบล็อก else พิมพ์ 'ฝนไม่ตก.' ตามด้วย 'กบไม่ร้อง.'"
   },
   {
-    "id": 122,
+    "id": 114,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
@@ -2684,7 +2508,7 @@
     "explanation": "k = 0, 2, 4, ..., 18 ทำงานทั้งหมด 10 ครั้ง"
   },
   {
-    "id": 123,
+    "id": 115,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
@@ -2706,7 +2530,7 @@
     "explanation": "range(1, 15, 2) มีเลข 1, 3, 5, 7, 9, 11, 13 รวม 7 ครั้ง"
   },
   {
-    "id": 124,
+    "id": 116,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
@@ -2728,7 +2552,7 @@
     "explanation": "String 'Hello For!' มีความยาว 10 ตัวอักษร ลูปวนนับ 10 ครั้ง"
   },
   {
-    "id": 125,
+    "id": 117,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Loop",
@@ -2750,7 +2574,7 @@
     "explanation": "คำสั่ง break ใช้สำหรับหยุดและออกจาก Loop"
   },
   {
-    "id": 126,
+    "id": 118,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Lists",
@@ -2772,7 +2596,7 @@
     "explanation": "z[1::2] เริ่มจาก index 1 (ค่า 4) กระโดดทีละ 2 ตัว จะได้ [4, 8, 12, 16, 20] ซึ่งทุกตัวหาร 4 ลงตัว"
   },
   {
-    "id": 127,
+    "id": 119,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Lists",
@@ -2794,7 +2618,7 @@
     "explanation": "Python list เป็น Heterogeneous Collection สามารถเก็บสมาชิกที่มีชนิดข้อมูลต่างกันปะปนกันได้ (เช่น list ซ้อน list)"
   },
   {
-    "id": 128,
+    "id": 120,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Lists",
@@ -2816,7 +2640,7 @@
     "explanation": "append() ใช้เพิ่มสมาชิกตัวเดียวต่อท้าย list ส่วน extend() นำสมาชิกทั้งหมดใน iterable มาต่อท้าย"
   },
   {
-    "id": 129,
+    "id": 121,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Tuples",
@@ -2838,7 +2662,7 @@
     "explanation": "ทั้ง list และ tuple เป็น Ordered Data Collection ที่รักษาลำดับของสมาชิกตามที่เพิ่มเข้าไป"
   },
   {
-    "id": 130,
+    "id": 122,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Tuples",
@@ -2860,7 +2684,7 @@
     "explanation": "Tuple รองรับการวนลูป (Iteration) ด้วย for loop ได้เช่นเดียวกับ List"
   },
   {
-    "id": 131,
+    "id": 123,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection: Tuples",
@@ -2882,7 +2706,7 @@
     "explanation": "tuple('1234') จะแยกตัวอักษรสตริงออกเป็น 4 สมาชิก ได้แก่ ('1', '2', '3', '4')"
   },
   {
-    "id": 132,
+    "id": 124,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection:  Dictionaries",
@@ -2904,7 +2728,7 @@
     "explanation": "การเพิ่มหรืออัปเดตค่าใน Dictionary ทำได้โดยกำหนด 'dictionary[key] = value' เช่น product['color'] = 'silver'"
   },
   {
-    "id": 133,
+    "id": 125,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection:  Dictionaries",
@@ -2926,7 +2750,7 @@
     "explanation": "การลบ Key ออกจาก Dictionary ใน Python ต้องใช้คำสั่ง 'del product[\"price\"]' หรือ 'product.pop(\"price\")' ช้อยส์อื่นผิดทั้งหมด"
   },
   {
-    "id": 134,
+    "id": 126,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection:  Sets",
@@ -2948,7 +2772,7 @@
     "explanation": "Python Set เป็น Unordered Collection ข้อมูลไม่มีลำดับและสมาชิกไม่ซ้ำกัน"
   },
   {
-    "id": 135,
+    "id": 127,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection:  Sets",
@@ -2970,7 +2794,7 @@
     "explanation": "ทั้งการใช้เมธอด t = s1.union(s2) และตัวดำเนินการ t = s1 | s2 หรือ s1 |= s2 ต่างเป็นการดำเนินการทำ Union ของ Set (ในบริบทข้อสอบข้อนี้จึงเฉลยถูกทุกข้อ)"
   },
   {
-    "id": 136,
+    "id": 128,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: Data Collection:  Sets",
@@ -2992,7 +2816,7 @@
     "explanation": "s1 และ s2 ไม่มีสมาชิกซ้ำกันเลย ดังนั้น Symmetric Difference (^) จึงเท่ากับ Union (|) พอดี"
   },
   {
-    "id": 137,
+    "id": 129,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Functions",
@@ -3014,7 +2838,7 @@
     "explanation": "ประโยชน์หลักของ Function คือ Reusability (นำกลับมาใช้ซ้ำ), Modularity (แบ่งเป็นสัดส่วน) และ Maintainability (ดูแลรักษาง่าย)"
   },
   {
-    "id": 138,
+    "id": 130,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Functions",
@@ -3036,11 +2860,11 @@
     "explanation": "create_customer('David', last_name='Berry', age=25) ส่งค่าครบทั้ง positional และ keyword arguments"
   },
   {
-    "id": 139,
+    "id": 131,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Functions",
-    "question": "3. จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้ def create_customer(first_name, last_name, age, is_new_customer=True, **kwargs): ข้อใดทำให้เกิด error จากการเรียนใช้ฟังก์ชั่น create_customer นี้",
+    "question": "จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้ def create_customer(first_name, last_name, age, is_new_customer=True, **kwargs): ข้อใดทำให้เกิด error จากการเรียนใช้ฟังก์ชั่น create_customer นี้",
     "images": [],
     "choices": [
       "create_customer('David', last_name='Berry', age=25, title='Mr.')",
@@ -3058,7 +2882,7 @@
     "explanation": "ฟังก์ชันต้องการ age แต่การเรียกนี้ไม่ได้ส่ง age ทำให้เกิด TypeError: missing 1 required positional argument: 'age'"
   },
   {
-    "id": 140,
+    "id": 132,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Files",
@@ -3080,7 +2904,7 @@
     "explanation": "โหมด 'w' (Write) หากยังไม่มีไฟล์อยู่ ระบบจะสร้างไฟล์ใหม่ขึ้นมาให้อัตโนมัติโดยไม่เกิดข้อผิดพลาด"
   },
   {
-    "id": 141,
+    "id": 133,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: การเขียนโปรแกรม Python: Files",
@@ -3102,7 +2926,7 @@
     "explanation": "โหมด 'w' ใช้สำหรับเปิดไฟล์เพื่อเขียนข้อมูลใหม่ทับไฟล์เดิม (Overwrite)"
   },
   {
-    "id": 142,
+    "id": 134,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความรู้จักและใช้งาน Lambda Function",
@@ -3124,7 +2948,7 @@
     "explanation": "Lambda function จะประมวลผล Expression และคืนค่า (Return) ออกมาให้อัตโนมัติโดยไม่ต้องเขียนคีย์เวิร์ด return"
   },
   {
-    "id": 143,
+    "id": 135,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความรู้จักและใช้งาน Lambda Function",
@@ -3146,7 +2970,7 @@
     "explanation": "Lambda function มีจุดเด่นคือความกะทัดรัด สามารถเขียนเป็น Anonymous inline function ได้"
   },
   {
-    "id": 144,
+    "id": 136,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความเข้าใจ Python Modules",
@@ -3168,7 +2992,7 @@
     "explanation": "การแบ่งโปรแกรมออกเป็น Modules ช่วยลดความซ้ำซ้อนของโค้ด และทำให้จัดการไฟล์ได้เป็นสัดส่วน"
   },
   {
-    "id": 145,
+    "id": 137,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: ทำความเข้าใจ Python Modules",
@@ -3190,7 +3014,7 @@
     "explanation": "Recurring code (โค้ดที่ซ้ำซ้อนกันในหลายๆ จุด) ทำให้เกิดความซ้ำซ้อน ยากต่อการบำรุงรักษา"
   },
   {
-    "id": 146,
+    "id": 138,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: โครงสร้างและวิธีใช้งาน Python Modules",
@@ -3212,7 +3036,7 @@
     "explanation": "เมื่อสคริปต์ถูกรันโดยตรงผ่าน Python Interpreter ตัวแปรระบบ __name__ จะมีค่าเป็น '__main__' เสมอ"
   },
   {
-    "id": 147,
+    "id": 139,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบ: โครงสร้างและวิธีใช้งาน Python Modules",
@@ -3234,7 +3058,7 @@
     "explanation": "ลำดับขั้น Scope ใน Python คือ Package (โฟลเดอร์) -> Python File/Module -> Function"
   },
   {
-    "id": 148,
+    "id": 140,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3256,7 +3080,7 @@
     "explanation": "เนื่องจากเป็น cell รองสุดท้าย (ไม่ใช่ cell ท้ายสุด) การกด Shift+Enter จะแค่รันและย้ายเคอร์เซอร์ไป cell ถัดไป จึงยังมี 5 cell เท่าเดิม"
   },
   {
-    "id": 149,
+    "id": 141,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3278,7 +3102,7 @@
     "explanation": "ตัวดำเนินการหาร /= ใน Python 3 จะคืนผลลัพธ์เป็น float เสมอ ดังนั้น 4 / 2 จึงได้ 2.0"
   },
   {
-    "id": 150,
+    "id": 142,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3300,29 +3124,7 @@
     "explanation": "ลำดับคำนวณ: 2**2 = 4, จากนั้น -1 * 4 = -4, -4 / 4 = -1.0, และ 4 + (-1.0) = 3.0"
   },
   {
-    "id": 151,
-    "course_id": "python",
-    "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
-    "category": "แบบทดสอบหลังเรียน (Post-test)",
-    "question": "ให้ function funcA() มี definition ส่วนหัวเป็น funcA( *arg1 , arg2 = True ) ในการเรียกใช้ funcA() จะต้องมีการใส่ argument จำนวนกี่ค่า",
-    "images": [],
-    "choices": [
-      "1 ค่า",
-      "2 ค่า",
-      "อย่างน้อย 1 ค่า",
-      "กี่ค่าก็ได้"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 3,
-    "explanation": "*arg1 รับกี่ค่าก็ได้ (0 หรือมากกว่า) และ arg2 มีค่าดีฟอลต์เป็น True อยู่แล้ว จึงใส่ argument กี่ค่าก็ได้"
-  },
-  {
-    "id": 152,
+    "id": 143,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3344,7 +3146,7 @@
     "explanation": "ไม่สามารถนำสตริง '34' มาบวก (ต่อ) กับตัวเลข 3 ได้โดยตรง เกิด TypeError"
   },
   {
-    "id": 153,
+    "id": 144,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3366,7 +3168,7 @@
     "explanation": "range(1, 1000, 2) วนเฉพาะเลขคี่ ดังนั้นเงื่อนไข i % 2 == 0 จะไม่เป็นจริงเลย x จึงมีค่าเท่ากับค่าในบรรทัดแรก (0)"
   },
   {
-    "id": 154,
+    "id": 145,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3388,29 +3190,7 @@
     "explanation": "รอบที่ 1: y=100 -> รอบที่ 2: y=5 -> รอบที่ 3-5: x และ y ขยับเข้าหากันจน x = 4 และ y = 2 แล้วหลุดจากลูป ค่า x จึงเป็น 4"
   },
   {
-    "id": 155,
-    "course_id": "python",
-    "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
-    "category": "แบบทดสอบหลังเรียน (Post-test)",
-    "question": "จากฟังก์ชั่นที่มีกำหนด function signature ไว้ดังนี้ def create_customer(first_name, last_name, age, is_new_customer=True, **kwargs): ข้อใดทำให้เกิด error จากการเรียนใช้ฟังก์ชั่น create_customer นี้",
-    "images": [],
-    "choices": [
-      "create_customer('David', last_name='Berry', age=25, title='Mr.')",
-      "create_customer('David', last_name='Berry', title='Mr.', occupation='programmer')",
-      "create_customer('David', last_name='Berry', age=30, is_new_customer=False)",
-      "create_customer('David', 'Berry', 30, False)"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 1,
-    "explanation": "ขาด Argument บังคับคือ 'age' จึงเกิด TypeError"
-  },
-  {
-    "id": 156,
+    "id": 146,
     "course_id": "python",
     "course_name": "Learn Python: Language Basics and Fundamental Data Processing",
     "category": "แบบทดสอบหลังเรียน (Post-test)",
@@ -3432,7 +3212,7 @@
     "explanation": "(1,2)->2==2 (True), (2,4)->4==4 (True), (3,6)->6==6 (True), (4,9)->9==8 (False) ได้ [True, True, True, False]"
   },
   {
-    "id": 157,
+    "id": 147,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3454,7 +3234,7 @@
     "explanation": "คำว่า 'ความฉลาด' มีการตีความที่หลากหลายที่สุด"
   },
   {
-    "id": 158,
+    "id": 148,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3476,7 +3256,7 @@
     "explanation": "Turing Test ทดสอบการสื่อสารโต้ตอบเลียนแบบมนุษย์"
   },
   {
-    "id": 159,
+    "id": 149,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3498,7 +3278,7 @@
     "explanation": "คอมพิวเตอร์มีความเร็วในการคำนวณทางคณิตศาสตร์เหนือกว่ามนุษย์"
   },
   {
-    "id": 160,
+    "id": 150,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3520,7 +3300,7 @@
     "explanation": "การค้นหาข้อมูลจากบาร์โค้ดเป็นการสืบค้นฐานข้อมูลปกติ ไม่ได้ใช้ AI"
   },
   {
-    "id": 161,
+    "id": 151,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3542,7 +3322,7 @@
     "explanation": "8-Puzzle เป็น State Space Search ไม่เกี่ยวกับ NLP"
   },
   {
-    "id": 162,
+    "id": 152,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3564,7 +3344,7 @@
     "explanation": "DFS อาจติดอยู่ในกิ่งลึกที่ไม่สิ้นสุด ทำให้ใช้เวลาค้นหานานมาก"
   },
   {
-    "id": 163,
+    "id": 153,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3586,7 +3366,7 @@
     "explanation": "Decision Tree มีจุดเด่นด้าน Interpretability มนุษย์เข้าใจได้ง่าย"
   },
   {
-    "id": 164,
+    "id": 154,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3608,7 +3388,7 @@
     "explanation": "CNN เป็นสถาปัตยกรรมที่ดีที่สุดสำหรับข้อมูลภาพ"
   },
   {
-    "id": 165,
+    "id": 155,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3630,7 +3410,7 @@
     "explanation": "หัวใจสำคัญของ Machine Learning คือการลด Loss/Error บน Training Data"
   },
   {
-    "id": 166,
+    "id": 156,
     "course_id": "aiml",
     "course_name": "รู้จักปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง",
     "category": "แบบทดสอบก่อนเรียน (Pre-test)",
@@ -3652,7 +3432,7 @@
     "explanation": "Linear Regression เหมาะสำหรับพยากรณ์ค่าตัวเลขต่อเนื่อง"
   },
   {
-    "id": 167,
+    "id": 157,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบก่อนเรียน",
@@ -3674,7 +3454,7 @@
     "explanation": "คอมพิวเตอร์เชิงไฟฟ้าใช้สถานะเปิด/ปิดสวิตช์แทน 0 และ 1"
   },
   {
-    "id": 168,
+    "id": 158,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบก่อนเรียน",
@@ -3696,7 +3476,7 @@
     "explanation": "10010000 = 144 ในฐานสิบ, บิตซ้ายสุด 1 คือค่าลบ, 8 บิตแทนได้ 256 ค่า"
   },
   {
-    "id": 169,
+    "id": 159,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบก่อนเรียน",
@@ -3718,7 +3498,7 @@
     "explanation": "0100 AND 0010 ได้ 0000 เนื่องจากไม่มีบิตใดที่ตรงกันเป็น 1"
   },
   {
-    "id": 170,
+    "id": 160,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบก่อนเรียน",
@@ -3740,7 +3520,7 @@
     "explanation": "รีจิสเตอร์และแคชใน CPU ทำงานเร็วที่สุด"
   },
   {
-    "id": 171,
+    "id": 161,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบก่อนเรียน",
@@ -3762,7 +3542,7 @@
     "explanation": "การมี CPU Cores มากขึ้นช่วยให้ทำงานพร้อมกันหลายโปรเซส แบ่งงานย่อยขนานกัน และแบ่งการทำงานให้ผู้ใช้หลายคนได้"
   },
   {
-    "id": 172,
+    "id": 162,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 1 วิวัฒนาการและความเป็นมาของระบบคอมพิวเตอร์",
@@ -3784,7 +3564,7 @@
     "explanation": "ในเครื่องคำนวณกลไกโบราณ การทดรอบของเฟือง (เช่น 10 ฟันหมุนครบ 1 รอบไปหมุนเฟืองหลักถัดไป 1 ฟัน) เทียบเท่ากับการทดเลขในระบบฐานสิบ"
   },
   {
-    "id": 173,
+    "id": 163,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 1 วิวัฒนาการและความเป็นมาของระบบคอมพิวเตอร์",
@@ -3806,7 +3586,7 @@
     "explanation": "ทรานซิสเตอร์ทำหน้าที่เป็นสวิตช์อิเล็กทรอนิกส์ความเร็วสูงสำหรับควบคุมการไหลของกระแสไฟ"
   },
   {
-    "id": 174,
+    "id": 164,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 2 การแทนข้อมูลในระบบคอมพิวเตอร์",
@@ -3828,7 +3608,7 @@
     "explanation": "Core มากขึ้นช่วย Multitasking, Parallel processing และรองรับผู้ใช้หลายคน"
   },
   {
-    "id": 175,
+    "id": 165,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 2 การแทนข้อมูลในระบบคอมพิวเตอร์",
@@ -3850,7 +3630,7 @@
     "explanation": "หน้าที่ OS ครอบคลุมจัดสรรทรัพยากร ควบคุมสิทธิ์ และเครือข่าย"
   },
   {
-    "id": 176,
+    "id": 166,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 2 การแทนข้อมูลในระบบคอมพิวเตอร์",
@@ -3872,7 +3652,7 @@
     "explanation": "ข้อมูลภาพดิจิทัลรองรับทั้งการเก็บแบบจุดพิกเซลสี RGB (Bitmap/Raster) และการเก็บสมการเส้นเรขาคณิต (Vector)"
   },
   {
-    "id": 177,
+    "id": 167,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 2 การแทนข้อมูลในระบบคอมพิวเตอร์",
@@ -3894,7 +3674,7 @@
     "explanation": "ภาพเก็บได้ทั้งแบบ Bitmap/Raster และ Vector"
   },
   {
-    "id": 178,
+    "id": 168,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 3 วงจรดิจิทัล",
@@ -3916,7 +3696,7 @@
     "explanation": "0100 OR 0010 = 0110 (การทำ Bitwise OR จะได้ 1 หากมีบิตใดบิตหนึ่งเป็น 1)"
   },
   {
-    "id": 179,
+    "id": 169,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 3 วงจรดิจิทัล",
@@ -3940,7 +3720,7 @@
     "explanation": "วงจรในรูปคือ XOR gate เมื่ออินพุต A = 0 และ B = 1 (มีค่าต่างกัน) ผลลัพธ์จะเป็น 1 (0 XOR 1 = 1)"
   },
   {
-    "id": 180,
+    "id": 170,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 3 วงจรดิจิทัล",
@@ -3964,7 +3744,7 @@
     "explanation": "วงจรนี้ใช้อินเวอร์เตอร์กลับค่า A และ B ก่อนเข้า AND gate แล้วกลับค่าผลลัพธ์อีกรอบ ตามกฎเดอมอร์แกน (De Morgan's Laws) วงจรนี้สมมูลกับ OR gate: 0 OR 1 = 1"
   },
   {
-    "id": 181,
+    "id": 171,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 3 วงจรดิจิทัล",
@@ -3988,7 +3768,7 @@
     "explanation": "วงจรทำหน้าที่คำนวณ OR (A OR B) ตามรอบขาขึ้นของสัญญาณนาฬิกาโดยดูข้อมูลก่อนขาขึ้น: ที่ขาขึ้นรอบที่ 1 ข้อมูล A=0, B=0 ได้ Q=0, ที่ขาขึ้นรอบที่ 2 ข้อมูล A=1, B=1 ได้ Q ขึ้นเป็น 1, ที่ขาขึ้นรอบที่ 3 ข้อมูล A=0, B=0 ได้ Q ตกลงเป็น 0 สอดคล้องกับสัญญาณในรูป A)"
   },
   {
-    "id": 182,
+    "id": 172,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 4 ฮาร์ดแวร์ในระบบคอมพิวเตอร์",
@@ -4010,7 +3790,7 @@
     "explanation": "CPU เป็นหน่วยประมวลผลและคำนวณหลักของคอมพิวเตอร์ (ภายในมี ALU)"
   },
   {
-    "id": 183,
+    "id": 173,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 4 ฮาร์ดแวร์ในระบบคอมพิวเตอร์",
@@ -4032,7 +3812,7 @@
     "explanation": "ความถี่สัญญาณนาฬิกา (Clock Speed) ที่สูงขึ้น หมายถึง CPU สามารถประมวลผลรอบคำสั่งได้มากขึ้นในหนึ่งหน่วยเวลา"
   },
   {
-    "id": 184,
+    "id": 174,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 4 ฮาร์ดแวร์ในระบบคอมพิวเตอร์",
@@ -4054,7 +3834,7 @@
     "explanation": "Disk (SSD/HDD) เก็บข้อมูลได้แม้ไม่มีไฟเลี้ยง ต่างจาก RAM"
   },
   {
-    "id": 185,
+    "id": 175,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 4 ฮาร์ดแวร์ในระบบคอมพิวเตอร์",
@@ -4076,7 +3856,7 @@
     "explanation": "ขั้นตอน Decode ใน Pipeline ทำหน้าที่ตีความคำสั่ง"
   },
   {
-    "id": 186,
+    "id": 176,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 5 สถาปัตยกรรมคอมพิวเตอร์เบื้องต้น",
@@ -4098,7 +3878,7 @@
     "explanation": "ระบบปฏิบัติการควบคุมและประสานงานฮาร์ดแวร์ส่วนต่างๆ"
   },
   {
-    "id": 187,
+    "id": 177,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 5 สถาปัตยกรรมคอมพิวเตอร์เบื้องต้น",
@@ -4120,7 +3900,7 @@
     "explanation": "มนุษย์สั่งการผ่านภาษาระดับสูง แอสเซมบลี และภาษาเครื่อง"
   },
   {
-    "id": 188,
+    "id": 178,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 5 สถาปัตยกรรมคอมพิวเตอร์เบื้องต้น",
@@ -4142,7 +3922,7 @@
     "explanation": "ภาษาแอสเซมบลีเทียบเท่ากับภาษาเครื่อง"
   },
   {
-    "id": 189,
+    "id": 179,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 5 สถาปัตยกรรมคอมพิวเตอร์เบื้องต้น",
@@ -4164,7 +3944,7 @@
     "explanation": "นำคำสั่งพื้นฐานหลายคำสั่งมาประกอบกันเพื่อให้ทำงานที่ซับซ้อนขึ้น"
   },
   {
-    "id": 190,
+    "id": 180,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 6 ซอฟต์แวร์ในระบบคอมพิวเตอร์",
@@ -4186,7 +3966,7 @@
     "explanation": "ระบบปฏิบัติการ (OS) ทำหน้าที่จัดการและจัดสรรทรัพยากรฮาร์ดแวร์ ควบคุมความปลอดภัยและสิทธิการเข้าถึงของผู้ใช้ รวมถึงจัดการการเชื่อมต่อเครือข่าย"
   },
   {
-    "id": 191,
+    "id": 181,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 6 ซอฟต์แวร์ในระบบคอมพิวเตอร์",
@@ -4208,7 +3988,7 @@
     "explanation": "Android เป็นระบบปฏิบัติการ ส่วนตัวเลือกอื่นเป็นชื่อบริษัท"
   },
   {
-    "id": 192,
+    "id": 182,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 6 ซอฟต์แวร์ในระบบคอมพิวเตอร์",
@@ -4230,7 +4010,7 @@
     "explanation": "Device driver ควบคุมอุปกรณ์ต่อพ่วงโดยทำงานร่วมกับ OS"
   },
   {
-    "id": 193,
+    "id": 183,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 6 ซอฟต์แวร์ในระบบคอมพิวเตอร์",
@@ -4252,7 +4032,7 @@
     "explanation": "ซอฟต์แวร์หลายประเภทช่วยให้ทำงานเฉพาะด้านได้ดี"
   },
   {
-    "id": 194,
+    "id": 184,
     "course_id": "digital",
     "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
     "category": "แบบทดสอบท้ายบทที่ 6 ซอฟต์แวร์ในระบบคอมพิวเตอร์",
@@ -4272,53 +4052,5 @@
     ],
     "correct_index": 2,
     "explanation": "โปรแกรมเข้าใจมาตรฐานไฟล์เดียวกัน"
-  },
-  {
-    "id": 195,
-    "course_id": "digital",
-    "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
-    "category": "แบบทดสอบหลังเรียน",
-    "question": "หากกำหนด A = 0 และ B = 1 ตัวเลือกใดเป็นผลลัพธ์ของวงจรต่อไปนี้",
-    "images": [
-      "https://www.mycourseville.com/sites/all/modules/courseville/files/ckfinder/userfiles/PLATFORM--4O5DMnySd4XvFKtX694t7vNAc9Vam75cO0VpISR3/images/Screenshot%202567-05-16%20at%2014_44_41_6645b97826ac4.png"
-    ],
-    "choices": [
-      "0",
-      "1",
-      "0 หรือ 1 ก็ได้",
-      "2"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 1,
-    "explanation": "วงจรนี้ใช้อินเวอร์เตอร์กลับค่า A และ B ก่อนเข้า AND gate แล้วกลับค่าผลลัพธ์อีกรอบ ตามกฎเดอมอร์แกน (De Morgan's Laws) วงจรนี้สมมูลกับ OR gate: 0 OR 1 = 1"
-  },
-  {
-    "id": 196,
-    "course_id": "digital",
-    "course_name": "รู้จักคอมพิวเตอร์และระบบดิจิทัล",
-    "category": "แบบทดสอบหลังเรียน",
-    "question": "หากกำหนด A = 0 และ B = 1 ตัวเลือกใดเป็นผลลัพธ์ของวงจรต่อไปนี้",
-    "images": [
-      "https://www.mycourseville.com/sites/all/modules/courseville/files/ckfinder/userfiles/PLATFORM--4O5DMnySd4XvFKtX694t7vNAc9Vam75cO0VpISR3/images/Screenshot%202567-05-16%20at%2014_56_57_6645bc58b7465.png"
-    ],
-    "choices": [
-      "0",
-      "1",
-      "0 หรือ 1 ก็ได้",
-      "2"
-    ],
-    "choice_images": [
-      [],
-      [],
-      [],
-      []
-    ],
-    "correct_index": 1,
-    "explanation": "วงจรในรูปคือ XOR gate เมื่ออินพุต A = 0 และ B = 1 (มีค่าต่างกัน) ผลลัพธ์จะเป็น 1 (0 XOR 1 = 1)"
   }
 ]
