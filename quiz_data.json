@@ -19,7 +19,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Computer Vision มุ่งเน้นการทำให้คอมพิวเตอร์สามารถรับรู้และเข้าใจข้อมูลภาพและวิดีโอได้เหมือนมนุษย์"
+    "explanation": "Computer Vision คือศาสตร์ที่ทำให้คอมพิวเตอร์สามารถมองเห็นและเข้าใจภาพได้เหมือนมนุษย์"
   },
   {
     "id": 2,
@@ -41,7 +41,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "Computer Vision จัดเป็นสาขาหนึ่ง (Subfield) ของ AI"
+    "explanation": "Computer Vision จัดเป็นสาขาหนึ่งของ AI"
   },
   {
     "id": 3,
@@ -63,7 +63,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "ประยุกต์ใช้ทั้งทางการแพทย์ (Medical Imaging), ความปลอดภัย (Surveillance) และหุ่นยนต์ (Robotics)"
+    "explanation": "Computer Vision ประยุกต์ใช้ทั้งทางการแพทย์ ความปลอดภัย และหุ่นยนต์"
   },
   {
     "id": 4,
@@ -81,7 +81,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ภาพนิ่งและวิดีโอคือ Input หลักของระบบ Computer Vision"
+    "explanation": "Input หลักของ Computer Vision คือภาพและวิดีโอ"
   },
   {
     "id": 5,
@@ -103,7 +103,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "8 บิตแทนค่าได้ 2^8 = 256 ระดับ (0-255)"
+    "explanation": "8 บิตแทนค่าได้ 2^8 = 256 เฉด (0-255)"
   },
   {
     "id": 6,
@@ -125,7 +125,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ในระบบพิกัดภาพดิจิทัล จุดกำเนิด (0,0) อยู่ที่มุมซ้ายบนของภาพ"
+    "explanation": "จุด (0,0) อยู่ที่มุมบนซ้ายของภาพ"
   },
   {
     "id": 7,
@@ -147,7 +147,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "Pixel คือคำย่อของ Picture Element"
+    "explanation": "Pixel มาจากคำว่า Picture Element"
   },
   {
     "id": 8,
@@ -169,7 +169,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "การใช้ภาพความละเอียดสูงไม่ได้สร้าง Noise แต่อาจเกิดจาก ISO สูง สภาพแสงน้อย หรือการบีบอัดไฟล์"
+    "explanation": "ภาพความละเอียดสูงไม่ได้ทำให้เกิด Noise"
   },
   {
     "id": 9,
@@ -191,7 +191,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "Image Histogram แสดงการกระจายตัวของระดับความเข้มของพิกเซลในภาพ"
+    "explanation": "Histogram แสดงการกระจายความเข้มของพิกเซล"
   },
   {
     "id": 10,
@@ -213,7 +213,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Features คือจุดข้อมูลหรือคุณลักษณะเฉพาะ เช่น ขอบ มุม พื้นผิว ที่ใช้แยกแยะและระบุวัตถุ"
+    "explanation": "Features คือจุดข้อมูลสำคัญที่ใช้แยกแยะและระบุวัตถุ"
   },
   {
     "id": 11,
@@ -235,7 +235,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Edge คือบริเวณที่มีการเปลี่ยนแปลงความเข้มของสีหรือแสงอย่างฉับพลัน"
+    "explanation": "Edge คือบริเวณที่มีการเปลี่ยนแปลงความเข้มพิกเซลอย่างฉับพลัน"
   },
   {
     "id": 12,
@@ -257,7 +257,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "เทคนิคตรวจจับการเคลื่อนที่หลักคือ Frame Differencing, Background Subtraction และ Optical Flow"
+    "explanation": "การตรวจจับการเคลื่อนที่หลักคือ Frame Differencing, Background Subtraction, Optical Flow"
   },
   {
     "id": 13,
@@ -279,7 +279,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "Optical Flow วิเคราะห์รูปแบบการเคลื่อนที่ของพิกเซลเพื่อติดตามการเคลื่อนไหวของวัตถุ"
+    "explanation": "Optical Flow ใช้ติดตามการเคลื่อนที่ของวัตถุโดยวิเคราะห์การเคลื่อนไหวของพิกเซล"
   },
   {
     "id": 14,
@@ -301,7 +301,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "CNN คือ Convolutional Neural Network โครงข่ายประสาทเทียมแบบคอนโวลูชัน"
+    "explanation": "CNN คือ Convolutional Neural Network"
   },
   {
     "id": 15,
@@ -323,7 +323,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Image Classification คือการจำแนกประเภทของภาพ"
+    "explanation": "Image Classification คือการแบ่งประเภทของภาพ"
   },
   {
     "id": 16,
@@ -345,7 +345,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "ทำหน้าที่วิเคราะห์และตีความข้อมูลจากภาพหรือวิดีโอ"
+    "explanation": "หน้าที่หลักของ Computer Vision คือวิเคราะห์และตีความภาพ/วิดีโอ"
   },
   {
     "id": 17,
@@ -367,7 +367,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Spam mail ใช้การประมวลผลข้อความ (NLP) ไม่ได้ใช้ Computer Vision"
+    "explanation": "Spam mail ใช้ NLP ไม่ได้ใช้ Computer Vision"
   },
   {
     "id": 18,
@@ -388,8 +388,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 2,
+    "explanation": "การขับรถอัตโนมัติ (Self-Driving Cars) ใช้กล้องและคอมพิวเตอร์วิชันในการตรวจจับถนนและวัตถุ"
   },
   {
     "id": 19,
@@ -411,7 +411,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "5 บิตแทนค่าได้ 2^5 = 32 เฉด"
   },
   {
     "id": 20,
@@ -433,7 +433,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "OpenCV ใช้ cv2.imread() อ่านภาพ และ cv2.imwrite() บันทึกภาพ"
+    "explanation": "OpenCV ใช้ imread เปิดภาพ และ imwrite บันทึกภาพ"
   },
   {
     "id": 21,
@@ -455,7 +455,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "2 Byte (16-bit) มีค่า 0-65535 ดังนั้น 0, 126, 255 จึงยังอยู่ในช่วงมืดมาก (ดำ, เทาเข้ม)"
+    "explanation": "2 Byte (16-bit) มีค่า 0-65535 ดังนั้น 0, 126, 255 จึงยังอยู่ในช่วงมืดมาก"
   },
   {
     "id": 22,
@@ -477,7 +477,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "สีเขียวใน BGR คือ (0, 255, 0) และวงกลมทึบใช้ thickness = -1"
   },
   {
     "id": 23,
@@ -498,8 +498,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 3,
+    "explanation": "Shape ใน NumPy เรียงตาม (Height, Width, Channels) = 5x4 พิกเซล 3 ช่องสี"
   },
   {
     "id": 24,
@@ -521,7 +521,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Image Blur ช่วยลด Noise"
   },
   {
     "id": 25,
@@ -543,7 +543,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "สัญญาณรบกวนทั่วไปมักเป็น Gaussian noise"
   },
   {
     "id": 26,
@@ -565,7 +565,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Erode กัดกร่อนวัตถุให้เล็กลง ส่วน Dilate ขยายวัตถุให้ใหญ่ขึ้น"
   },
   {
     "id": 27,
@@ -586,8 +586,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 2,
+    "explanation": "Histogram Equalization เกลี่ยการกระจายแสงเพื่อเพิ่ม Contrast"
   },
   {
     "id": 28,
@@ -609,7 +609,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "คำสั่ง Thresholding แบบ Binary ที่ค่า 120"
   },
   {
     "id": 29,
@@ -630,8 +630,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 2,
+    "explanation": "Features ใช้สำหรับแยกแยะและติดตามวัตถุในภาพ"
   },
   {
     "id": 30,
@@ -653,7 +653,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "HSI แยกส่วน Hue (สี) และ Saturation ออกจาก Intensity (ความสว่าง)"
   },
   {
     "id": 31,
@@ -674,8 +674,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 1,
+    "explanation": "ฟิลเตอร์ Sobel ตรวจจับขอบโดยคำนวณ Gradient"
   },
   {
     "id": 32,
@@ -696,8 +696,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 1,
+    "explanation": "Laplacian Kernel คำนวณอนุพันธ์อันดับสองทั้งสองแนว"
   },
   {
     "id": 33,
@@ -718,8 +718,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 3,
+    "explanation": "cv2.dilate() เป็นคำสั่ง Morphological Operation (การขยายภาพ) ไม่ใช่คำสั่งตรวจจับขอบ (Edge Detection)"
   },
   {
     "id": 34,
@@ -741,7 +741,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Background Subtraction ใช้โมเดลพื้นหลังเปรียบเทียบกับภาพปัจจุบัน"
   },
   {
     "id": 35,
@@ -762,8 +762,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 1,
+    "explanation": "Optical Flow มีสมมติฐาน Smoothness Constraint ว่าจุดภาพข้างเคียงจะเคลื่อนที่ไปด้วยกันในเวกเตอร์ที่เหมือนหรือใกล้เคียงกัน"
   },
   {
     "id": 36,
@@ -785,7 +785,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Background Subtraction แยกวัตถุจากพื้นหลัง ส่วน Optical Flow ติดตามการเคลื่อนไหวของพิกเซล"
   },
   {
     "id": 37,
@@ -806,8 +806,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 2,
+    "explanation": "cv2.GaussianBlur() เป็นคำสั่งเบลอภาพเพื่อลดสัญญาณรบกวน ไม่ได้เป็นคำสั่งสำหรับคำนวณ Optical Flow"
   },
   {
     "id": 38,
@@ -829,7 +829,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Brightness Constancy Assumption สมมติว่าความสว่างของจุดวัตถุคงที่"
   },
   {
     "id": 39,
@@ -851,7 +851,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Accuracy คืออัตราส่วนของการทำนายที่ถูกต้องต่อการทำนายทั้งหมด"
+    "explanation": "Accuracy = จำนวนที่ทายถูก / จำนวนทั้งหมด"
   },
   {
     "id": 40,
@@ -873,7 +873,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "YOLO เป็นโมเดล Object Detection ตรวจจับทั้งกรอบและคลาส"
+    "explanation": "YOLO เป็นโมเดล Object Detection ไม่ใช่ Image Classification"
   },
   {
     "id": 41,
@@ -895,7 +895,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Precision = TP / (TP + FP), Recall = TP / (TP + FN)"
   },
   {
     "id": 42,
@@ -916,8 +916,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "Accuracy คืออัตราส่วนของการทำนายที่ถูกต้องต่อการทำนายทั้งหมด"
+    "correct_index": 2,
+    "explanation": "เมื่อข้อมูลในแต่ละ Class ไม่สมดุลกัน (Imbalanced Data) โมเดลที่ทายแต่คลาสส่วนใหญ่จะได้ Accuracy สูง แต่จะได้ Precision และ Recall ต่ำ"
   },
   {
     "id": 43,
@@ -941,7 +941,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "Confusion Matrix แสดงตารางเปรียบเทียบระหว่างค่าจริงและค่าทำนายเพื่อคำนวณ Precision, Recall, F1"
+    "explanation": "จากตาราง TP = 80, FP = 20 -> Precision = 80/100 = 0.8"
   },
   {
     "id": 44,
@@ -963,7 +963,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "mIoU คือค่าเฉลี่ยของ IoU จากทุก Class ของวัตถุ"
+    "explanation": "mIoU คือ Mean IoU เฉลี่ยข้ามทุกคลาส"
   },
   {
     "id": 45,
@@ -985,7 +985,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "ความแม่นยำขึ้นอยู่กับ Dataset และการปรับจูน Library ไม่ได้รับประกันว่าจะได้ผลดีเสมอไป"
+    "explanation": "Library อำนวยความสะดวก แต่ไม่ได้รับประกันว่าจะได้โมเดลแม่นยำเสมอไป"
   },
   {
     "id": 46,
@@ -1006,8 +1006,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 3,
+    "explanation": "โครงสร้าง Dataset ของ YOLO จะเก็บไฟล์ภาพและไฟล์ Label ข้อความ (.txt) ไว้ด้วยชื่อเดียวกันแต่ต่างนามสกุล"
   },
   {
     "id": 47,
@@ -1028,8 +1028,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 1,
+    "explanation": "จุดเด่นของ YOLO คือสามารถตรวจจับทั้งตำแหน่งและจำแนกวัตถุหลายชนิดในภาพได้ในครั้งเดียว (Single-shot) ด้วยความเร็วสูง"
   },
   {
     "id": 48,
@@ -1050,8 +1050,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "Accuracy คืออัตราส่วนของการทำนายที่ถูกต้องต่อการทำนายทั้งหมด"
+    "correct_index": 2,
+    "explanation": "การใช้ Regularization เช่น L2 Regularization หรือ Dropout ช่วยลด Overfitting ทำให้โมเดลนำไปใช้กับชุดข้อมูล Test ได้ดียิ่งขึ้น"
   },
   {
     "id": 49,
@@ -1072,8 +1072,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "2 Byte (16-bit) มีค่า 0-65535 ดังนั้น 0, 126, 255 จึงยังอยู่ในช่วงมืดมาก (ดำ, เทาเข้ม)"
+    "correct_index": 2,
+    "explanation": "ข้อมูล 2 Byte ค่า 0, 126, 255 คือ ดำ, เทาเข้ม, เทาอ่อน"
   },
   {
     "id": 50,
@@ -1094,8 +1094,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 3,
+    "explanation": "Shape (5,4,3) คือ 5x4 พิกเซล 3 ช่องสี"
   },
   {
     "id": 51,
@@ -1117,7 +1117,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "cv2.threshold(image, 120, 255, cv2.THRESH_BINARY)"
   },
   {
     "id": 52,
@@ -1138,8 +1138,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "correct_index": 1,
+    "explanation": "Laplacian Kernel หาการเปลี่ยนแปลงความเข้มทั้งแนวขวางและแนวนอน"
   },
   {
     "id": 53,
@@ -1161,7 +1161,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Background Subtraction แยกวัตถุจากพื้นหลัง ส่วน Optical Flow ติดตามการเคลื่อนไหวของพิกเซล"
   },
   {
     "id": 54,
@@ -1183,7 +1183,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทางคอมพิวเตอร์วิชั่น"
+    "explanation": "Precision = TP/(TP+FP), Recall = TP/(TP+FN)"
   },
   {
     "id": 55,
@@ -1205,7 +1205,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "Python เป็น High-level programming language ไม่ใช่ Low-level language"
+    "explanation": "Python เป็น High-level programming language"
   },
   {
     "id": 56,
@@ -1227,7 +1227,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "Jupyter Notebook รองรับทั้ง Markdown สำหรับจัดข้อความ และรันโค้ดได้หลายภาษา"
+    "explanation": "Jupyter Notebook รองรับทั้ง Markdown และรันโค้ดได้หลายภาษา"
   },
   {
     "id": 57,
@@ -1249,7 +1249,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "เกิด IndentationError เพราะ print(\"World\") มีการเว้นวรรคเยื้องหน้าโดยไม่มีบล็อกคำสั่ง"
+    "explanation": "บรรทัด print('World') มี Indentation ผิดพลาด"
   },
   {
     "id": 58,
@@ -1271,7 +1271,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "Python อนุมานประเภทข้อมูลอัตโนมัติจากรูปแบบที่เราเขียน (Dynamic typing)"
+    "explanation": "Python เป็น Dynamic typing อนุมานประเภทข้อมูลอัตโนมัติ"
   },
   {
     "id": 59,
@@ -1315,7 +1315,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "3 (int) ถูกแปลงเป็น float โดยปริยายเมื่อบวกกับ 4.0 (float) ผลลัพธ์คือ 7.0 (float)"
+    "explanation": "int + float ได้ผลลัพธ์เป็น float โดยปริยาย"
   },
   {
     "id": 61,
@@ -1337,7 +1337,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "'Dog'[:1] ได้ 'D' ซึ่งไม่มี 'g' เมธอด .find() จึงคืนค่า -1"
+    "explanation": "'Dog'[:1] ได้ 'D' ซึ่งไม่มี 'g' เมธอด .find() คืนค่า -1"
   },
   {
     "id": 62,
@@ -1359,7 +1359,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "while loop เป็น indefinite loop เพราะจำนวนรอบขึ้นอยู่กับเงื่อนไข ไม่ใช่ definite loop"
+    "explanation": "while loop เป็น indefinite loop"
   },
   {
     "id": 63,
@@ -1381,7 +1381,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "Dictionary สามารถซ้อน Dictionary อื่นได้ (Nested dictionary)"
+    "explanation": "Dictionary สามารถเก็บ Dictionary อื่นซ้อนข้างในได้"
   },
   {
     "id": 64,
@@ -1403,7 +1403,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "with statement จะปิดไฟล์ให้อัตโนมัติเมื่อออกจากบล็อก แม้จะเกิด error"
+    "explanation": "with statement จะปิดไฟล์ให้อัตโนมัติ"
   },
   {
     "id": 65,
@@ -1425,7 +1425,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Python จะมองหาโมดูลใน Current working directory ก่อนเป็นลำดับแรก"
+    "explanation": "Python ค้นหาโมดูลจาก Current Directory ก่อนเสมอ"
   },
   {
     "id": 66,
@@ -1446,8 +1446,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "Lambda function เหมาะสำหรับฟังก์ชันนิรนาม (Anonymous) ขนาดเล็กบรรทัดเดียวที่ต้องการเรียกใช้เฉพาะจุดเพียงครั้งเดียว"
   },
   {
     "id": 67,
@@ -1468,8 +1468,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "Python เป็น High-level language"
   },
   {
     "id": 68,
@@ -1490,8 +1490,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "Interpreter แปลโค้ดทีละคำสั่ง (Line by line)"
   },
   {
     "id": 69,
@@ -1512,8 +1512,8 @@
       [],
       []
     ],
-    "correct_index": 2,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Bytecode ของ Python (.pyc) ถูกนำไปประมวลผลบน Python Virtual Machine (PVM)"
   },
   {
     "id": 70,
@@ -1535,7 +1535,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "Dynamically-typed ตัดสินประเภทตัวแปรตอน Run-Time"
   },
   {
     "id": 71,
@@ -1557,7 +1557,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "Python รองรับ Multi-paradigm ไวยากรณ์อ่านง่าย และมี Library หลากหลาย"
   },
   {
     "id": 72,
@@ -1579,7 +1579,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "ติดตั้งได้ทั้งจาก python.org และ Anaconda"
   },
   {
     "id": 73,
@@ -1600,8 +1600,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "คอร์สนี้ใช้ Python 3"
   },
   {
     "id": 74,
@@ -1623,7 +1623,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "Jupyter Notebook เปิดผ่าน Terminal ได้อย่างถูกต้อง"
   },
   {
     "id": 75,
@@ -1645,7 +1645,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "PyPI เป็นคลังซอฟต์แวร์ของ Python"
   },
   {
     "id": 76,
@@ -1667,7 +1667,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "คำสั่ง python3 -m ระบุให้รันโมดูลด้วย python3"
   },
   {
     "id": 77,
@@ -1689,7 +1689,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "IPython Kernel เป็นตัวรันโค้ดหลักของ Jupyter Notebook"
   },
   {
     "id": 78,
@@ -1711,7 +1711,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "Jupyter Notebook ใช้งานผ่าน Web browser"
   },
   {
     "id": 79,
@@ -1732,8 +1732,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "สมุดโน้ต Jupyter บันทึกด้วยนามสกุล .ipynb"
   },
   {
     "id": 80,
@@ -1754,8 +1754,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "Markdown cell ใช้เขียนบรรยายเนื้อหา"
   },
   {
     "id": 81,
@@ -1776,8 +1776,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "Code cell ใน Jupyter Notebook มีไว้สำหรับเขียนและรันโค้ดคำสั่งของโปรแกรม"
   },
   {
     "id": 82,
@@ -1798,8 +1798,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "Shift+Enter ที่ cell สุดท้ายจะรันและสร้าง cell ใหม่เพิ่มอีก 1 cell (รวมเป็น 4)"
   },
   {
     "id": 83,
@@ -1820,8 +1820,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ใน Command Mode ของ Jupyter Notebook กดปุ่ม M เพื่อเปลี่ยนเป็น Markdown cell และกดปุ่ม Y เพื่อเปลี่ยนเป็น Code cell"
   },
   {
     "id": 84,
@@ -1842,8 +1842,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "ใน Markdown ใช้สัญลักษณ์ # นำหน้าหัวข้อเรื่อง"
   },
   {
     "id": 85,
@@ -1864,8 +1864,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ใน Markdown การเว้นวรรคด้วย Space อย่างน้อย 4 ตัวที่ต้นบรรทัดจะแสดงข้อความเป็นบล็อกโค้ด (Indented Code Block)"
   },
   {
     "id": 86,
@@ -1886,8 +1886,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "การ Debug หมายถึงกระบวนการค้นหา วิเคราะห์ และแก้ไขข้อผิดพลาด (Bugs) ในโปรแกรม"
   },
   {
     "id": 87,
@@ -1908,8 +1908,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "Case-sensitive หมายถึงระบบแยกความแตกต่างระหว่างตัวอักษรพิมพ์เล็กและพิมพ์ใหญ่ของภาษาอังกฤษ เช่น Cat กับ cat ถือเป็นคนละคำ"
   },
   {
     "id": 88,
@@ -1931,7 +1931,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "เกิดข้อผิดพลาดเพราะฟังก์ชัน print ต้องเป็นตัวพิมพ์เล็ก"
   },
   {
     "id": 89,
@@ -1953,7 +1953,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "str สำหรับข้อความ และ bool สำหรับค่าความจริง"
   },
   {
     "id": 90,
@@ -1974,8 +1974,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "num ไม่ใช่ชนิดข้อมูล (Data Type) ในภาษา Python (ชนิดข้อมูลตัวเลขได้แก่ int, float, complex)"
   },
   {
     "id": 91,
@@ -1996,8 +1996,8 @@
       [],
       []
     ],
-    "correct_index": 1,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "ใน Jupyter Notebook เมื่อรันตัวแปรใน cell หนึ่งแล้ว ตัวแปรนั้นจะคงอยู่ในหน่วยความจำและสามารถเรียกใช้ข้ามไปยัง cell อื่นๆ ในสมุดโน้ตเดียวกันได้"
   },
   {
     "id": 92,
@@ -2018,8 +2018,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "รูปแบบการกำหนดค่า 'a = b = 1' เป็นไวยากรณ์ Chained Assignment ที่ถูกต้องใน Python (กำหนดให้ทั้ง a และ b มีค่าเป็น 1)"
   },
   {
     "id": 93,
@@ -2040,8 +2040,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ชื่อตัวแปรใน Python ต้องไม่ขึ้นต้นด้วยตัวเลข และห้ามมีเครื่องหมายยัติภังค์ (-) ดังนั้น 'one_or_2' จึงเป็นชื่อที่ถูกต้อง"
   },
   {
     "id": 94,
@@ -2062,8 +2062,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "5 ** -1 คือ 1/5 = 0.2"
   },
   {
     "id": 95,
@@ -2084,8 +2084,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "13 // 2 คือ Floor Division ได้ 6"
   },
   {
     "id": 96,
@@ -2106,8 +2106,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "x = 3; x *= 2 -> x = 6"
   },
   {
     "id": 97,
@@ -2129,7 +2129,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "3 + 5 เป็น Expression ที่ประมวลผลได้ค่า 8"
   },
   {
     "id": 98,
@@ -2150,8 +2150,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "ลำดับการทำงานถูกกำหนดด้วย Operator Precedence"
   },
   {
     "id": 99,
@@ -2172,8 +2172,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "1**2 = 1 -> 1/2 = 0.5 -> 3 + 0.5 = 3.5"
   },
   {
     "id": 100,
@@ -2195,7 +2195,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "not not (3 > 5) == False != True -> ได้ False"
   },
   {
     "id": 101,
@@ -2216,8 +2216,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Built-in function สามารถเรียกใช้ได้ทันทีไม่ต้องสร้างเอง"
   },
   {
     "id": 102,
@@ -2238,8 +2238,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "abs(x) เป็นการเรียกใช้ฟังก์ชัน"
   },
   {
     "id": 103,
@@ -2260,8 +2260,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "pow(2, 3) 2 ยกกำลัง 3 ได้ผลลัพธ์เป็น 8"
   },
   {
     "id": 104,
@@ -2282,8 +2282,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "arg1 และ arg2 ต้องส่งค่า ส่วน *arg3 ส่งหรือไม่ก็ได้ รวมต้องส่งตั้งแต่ 2 ค่าขึ้นไป"
   },
   {
     "id": 105,
@@ -2304,8 +2304,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "*arg1 รับได้ตั้งแต่ 0 ค่าขึ้นไป และ arg2 มี Default Value จึงใส่กี่ค่าก็ได้"
   },
   {
     "id": 106,
@@ -2326,8 +2326,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "เช่น int / int ใน Python 3 จะได้ผลลัพธ์เป็น float เสมอ"
   },
   {
     "id": 107,
@@ -2348,8 +2348,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Polymorphic operator มีการทำงานเปลี่ยนไปตามประเภทข้อมูล เช่น + ใช้บวกเลขหรือต่อสตริง"
   },
   {
     "id": 108,
@@ -2370,8 +2370,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ไม่สามารถนำ str มาบวกกับ int ได้โดยตรง เกิด TypeError"
   },
   {
     "id": 109,
@@ -2392,8 +2392,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "int() เป็นฟังก์ชันแปลงชนิดข้อมูล (Typecasting)"
   },
   {
     "id": 110,
@@ -2414,8 +2414,8 @@
       [],
       []
     ],
-    "correct_index": 2,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "math เป็น Built-in module ไม่ต้องติดตั้งเพิ่มแต่ต้อง import ก่อนใช้"
   },
   {
     "id": 111,
@@ -2436,8 +2436,8 @@
       [],
       []
     ],
-    "correct_index": 2,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "เมื่อ import math as m ต้องเรียกผ่านชื่อ alias 'm.sqrt(144)'"
   },
   {
     "id": 112,
@@ -2459,7 +2459,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "help() แสดงเอกสารรายละเอียดของ module หรือ function"
   },
   {
     "id": 113,
@@ -2481,7 +2481,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "'1' + '9' นำสตริงมาต่อกันได้ '19'"
   },
   {
     "id": 114,
@@ -2502,8 +2502,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ฟังก์ชัน len() ใช้ตรวจสอบความยาวของสตริง"
   },
   {
     "id": 115,
@@ -2525,7 +2525,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "s[1:-5:2] กระโดดทีละ 2 เริ่มจาก index 1 ได้ 'el,I'"
   },
   {
     "id": 116,
@@ -2546,8 +2546,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "String เป็น Immutable ไม่สามารถแก้ไขค่าตำแหน่งด้วย S[0] = 'R'"
   },
   {
     "id": 117,
@@ -2568,8 +2568,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "S[:1] ได้ 'D', 'D'.find('g') หาไม่พบจึงคืนค่า -1"
   },
   {
     "id": 118,
@@ -2592,8 +2592,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "สี่เหลี่ยมข้าวหลามตัดใน Flowchart หมายถึงการตัดสินใจ (Decision)"
   },
   {
     "id": 119,
@@ -2614,8 +2614,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "เงื่อนไขแรก a >= 2 เป็นจริง จึงทำ x = 1 แล้วจบ"
   },
   {
     "id": 120,
@@ -2637,7 +2637,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "กบร้อง เป็น False บล็อก if ไม่ทำงาน จึงพิมพ์ 'อ๊บอ๊บ'"
   },
   {
     "id": 121,
@@ -2658,8 +2658,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "not กบร้อง เป็น False จึงเข้าบล็อก else พิมพ์ 'ฝนไม่ตก.' ตามด้วย 'กบไม่ร้อง.'"
   },
   {
     "id": 122,
@@ -2681,7 +2681,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "k = 0, 2, 4, ..., 18 ทำงานทั้งหมด 10 ครั้ง"
   },
   {
     "id": 123,
@@ -2703,7 +2703,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ฟังก์ชัน range(start, stop, step) สร้างลำดับตัวเลขตามที่กำหนด"
+    "explanation": "range(1, 15, 2) มีเลข 1, 3, 5, 7, 9, 11, 13 รวม 7 ครั้ง"
   },
   {
     "id": 124,
@@ -2724,8 +2724,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "String 'Hello For!' มีความยาว 10 ตัวอักษร ลูปวนนับ 10 ครั้ง"
   },
   {
     "id": 125,
@@ -2746,8 +2746,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "คำสั่ง break ใช้สำหรับหยุดและออกจาก Loop"
   },
   {
     "id": 126,
@@ -2768,8 +2768,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "ฟังก์ชัน range(start, stop, step) สร้างลำดับตัวเลขตามที่กำหนด"
+    "correct_index": 1,
+    "explanation": "z[1::2] เริ่มจาก index 1 (ค่า 4) กระโดดทีละ 2 ตัว จะได้ [4, 8, 12, 16, 20] ซึ่งทุกตัวหาร 4 ลงตัว"
   },
   {
     "id": 127,
@@ -2790,8 +2790,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Python list เป็น Heterogeneous Collection สามารถเก็บสมาชิกที่มีชนิดข้อมูลต่างกันปะปนกันได้ (เช่น list ซ้อน list)"
   },
   {
     "id": 128,
@@ -2813,7 +2813,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "list.append() ใช้เพิ่มสมาชิกตัวใหม่ต่อท้าย List เดิม"
+    "explanation": "append() ใช้เพิ่มสมาชิกตัวเดียวต่อท้าย list ส่วน extend() นำสมาชิกทั้งหมดใน iterable มาต่อท้าย"
   },
   {
     "id": 129,
@@ -2834,8 +2834,8 @@
       [],
       []
     ],
-    "correct_index": 1,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "ทั้ง list และ tuple เป็น Ordered Data Collection ที่รักษาลำดับของสมาชิกตามที่เพิ่มเข้าไป"
   },
   {
     "id": 130,
@@ -2856,8 +2856,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Tuple รองรับการวนลูป (Iteration) ด้วย for loop ได้เช่นเดียวกับ List"
   },
   {
     "id": 131,
@@ -2878,8 +2878,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "tuple('1234') จะแยกตัวอักษรสตริงออกเป็น 4 สมาชิก ได้แก่ ('1', '2', '3', '4')"
   },
   {
     "id": 132,
@@ -2900,8 +2900,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "การเพิ่มหรืออัปเดตค่าใน Dictionary ทำได้โดยกำหนด 'dictionary[key] = value' เช่น product['color'] = 'silver'"
   },
   {
     "id": 133,
@@ -2922,8 +2922,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "การลบ Key ออกจาก Dictionary ใน Python ต้องใช้คำสั่ง 'del product[\"price\"]' หรือ 'product.pop(\"price\")' ช้อยส์อื่นผิดทั้งหมด"
   },
   {
     "id": 134,
@@ -2945,7 +2945,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "Set เก็บเฉพาะสมาชิกที่ไม่ซ้ำกัน และไม่มีการเรียงลำดับ (Unordered)"
+    "explanation": "Python Set เป็น Unordered Collection ข้อมูลไม่มีลำดับและสมาชิกไม่ซ้ำกัน"
   },
   {
     "id": 135,
@@ -2966,8 +2966,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "คำสั่ง 't = s1.union(s2)' คืนค่าเป็น Set ใหม่ที่เป็นผลลัพธ์จากการ Union"
   },
   {
     "id": 136,
@@ -2988,8 +2988,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "Set เก็บเฉพาะสมาชิกที่ไม่ซ้ำกัน และไม่มีการเรียงลำดับ (Unordered)"
+    "correct_index": 3,
+    "explanation": "s1 และ s2 ไม่มีสมาชิกซ้ำกันเลย ดังนั้น Symmetric Difference (^) จึงเท่ากับ Union (|) พอดี"
   },
   {
     "id": 137,
@@ -3010,8 +3010,8 @@
       [],
       []
     ],
-    "correct_index": 1,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "ประโยชน์หลักของ Function คือ Reusability (นำกลับมาใช้ซ้ำ), Modularity (แบ่งเป็นสัดส่วน) และ Maintainability (ดูแลรักษาง่าย)"
   },
   {
     "id": 138,
@@ -3032,8 +3032,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "create_customer('David', last_name='Berry', age=25) ส่งค่าครบทั้ง positional และ keyword arguments"
   },
   {
     "id": 139,
@@ -3054,8 +3054,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ฟังก์ชันต้องการ age แต่การเรียกนี้ไม่ได้ส่ง age ทำให้เกิด TypeError: missing 1 required positional argument: 'age'"
   },
   {
     "id": 140,
@@ -3076,8 +3076,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "โหมด 'w' (Write) หากยังไม่มีไฟล์อยู่ ระบบจะสร้างไฟล์ใหม่ขึ้นมาให้อัตโนมัติโดยไม่เกิดข้อผิดพลาด"
   },
   {
     "id": 141,
@@ -3099,7 +3099,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "โหมด 'w' (Write) ใช้เปิดไฟล์เพื่อเขียนข้อมูลใหม่ โดยจะลบข้อมูลเดิมทิ้ง"
+    "explanation": "โหมด 'w' ใช้สำหรับเปิดไฟล์เพื่อเขียนข้อมูลใหม่ทับไฟล์เดิม (Overwrite)"
   },
   {
     "id": 142,
@@ -3120,8 +3120,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "Lambda function จะประมวลผล Expression และคืนค่า (Return) ออกมาให้อัตโนมัติโดยไม่ต้องเขียนคีย์เวิร์ด return"
   },
   {
     "id": 143,
@@ -3143,7 +3143,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "explanation": "Lambda function มีจุดเด่นคือความกะทัดรัด สามารถเขียนเป็น Anonymous inline function ได้"
   },
   {
     "id": 144,
@@ -3164,8 +3164,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 0,
+    "explanation": "การแบ่งโปรแกรมออกเป็น Modules ช่วยลดความซ้ำซ้อนของโค้ด และทำให้จัดการไฟล์ได้เป็นสัดส่วน"
   },
   {
     "id": 145,
@@ -3186,8 +3186,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "Recurring code (โค้ดที่ซ้ำซ้อนกันในหลายๆ จุด) ทำให้เกิดความซ้ำซ้อน ยากต่อการบำรุงรักษา"
   },
   {
     "id": 146,
@@ -3208,8 +3208,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 2,
+    "explanation": "เมื่อสคริปต์ถูกรันโดยตรงผ่าน Python Interpreter ตัวแปรระบบ __name__ จะมีค่าเป็น '__main__' เสมอ"
   },
   {
     "id": 147,
@@ -3230,8 +3230,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "ลำดับขั้น Scope ใน Python คือ Package (โฟลเดอร์) -> Python File/Module -> Function"
   },
   {
     "id": 148,
@@ -3252,8 +3252,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "เนื่องจากเป็น cell รองสุดท้าย (ไม่ใช่ cell ท้ายสุด) การกด Shift+Enter จะแค่รันและย้ายเคอร์เซอร์ไป cell ถัดไป จึงยังมี 5 cell เท่าเดิม"
   },
   {
     "id": 149,
@@ -3274,8 +3274,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ตัวดำเนินการหาร /= ใน Python 3 จะคืนผลลัพธ์เป็น float เสมอ ดังนั้น 4 / 2 จึงได้ 2.0"
   },
   {
     "id": 150,
@@ -3296,8 +3296,8 @@
       [],
       []
     ],
-    "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ลำดับคำนวณ: 2**2 = 4, จากนั้น -1 * 4 = -4, -4 / 4 = -1.0, และ 4 + (-1.0) = 3.0"
   },
   {
     "id": 151,
@@ -3318,8 +3318,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "*arg1 รับกี่ค่าก็ได้ (0 หรือมากกว่า) และ arg2 มีค่าดีฟอลต์เป็น True อยู่แล้ว จึงใส่ argument กี่ค่าก็ได้"
   },
   {
     "id": 152,
@@ -3340,8 +3340,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 3,
+    "explanation": "ไม่สามารถนำสตริง '34' มาบวก (ต่อ) กับตัวเลข 3 ได้โดยตรง เกิด TypeError"
   },
   {
     "id": 153,
@@ -3363,7 +3363,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ฟังก์ชัน range(start, stop, step) สร้างลำดับตัวเลขตามที่กำหนด"
+    "explanation": "range(1, 1000, 2) วนเฉพาะเลขคี่ ดังนั้นเงื่อนไข i % 2 == 0 จะไม่เป็นจริงเลย x จึงมีค่าเท่ากับค่าในบรรทัดแรก (0)"
   },
   {
     "id": 154,
@@ -3384,8 +3384,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "continue สั่งข้ามคำสั่งที่เหลือในรอบปัจจุบัน แล้วเริ่มรอบถัดไปทันที"
+    "correct_index": 1,
+    "explanation": "รอบที่ 1: y=100 -> รอบที่ 2: y=5 -> รอบที่ 3-5: x และ y ขยับเข้าหากันจน x = 4 และ y = 2 แล้วหลุดจากลูป ค่า x จึงเป็น 4"
   },
   {
     "id": 155,
@@ -3406,8 +3406,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักไวยากรณ์ภาษา Python"
+    "correct_index": 1,
+    "explanation": "ขาด Argument บังคับคือ 'age' จึงเกิด TypeError"
   },
   {
     "id": 156,
@@ -3428,8 +3428,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "Lambda คือ Anonymous function ฟังก์ชันนิรนามที่เขียนในบรรทัดเดียว"
+    "correct_index": 3,
+    "explanation": "(1,2)->2==2 (True), (2,4)->4==4 (True), (3,6)->6==6 (True), (4,9)->9==8 (False) ได้ [True, True, True, False]"
   },
   {
     "id": 157,
@@ -3451,7 +3451,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "คำว่า 'ความฉลาด' มีคำนิยามและการตีความที่หลากหลายที่สุดในวงการ AI"
+    "explanation": "คำว่า 'ความฉลาด' มีการตีความที่หลากหลายที่สุด"
   },
   {
     "id": 158,
@@ -3473,7 +3473,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "Turing Test วัดความสามารถของ AI ในการสื่อสารโต้ตอบเลียนแบบมนุษย์"
+    "explanation": "Turing Test ทดสอบการสื่อสารโต้ตอบเลียนแบบมนุษย์"
   },
   {
     "id": 159,
@@ -3495,7 +3495,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "คอมพิวเตอร์สามารถคำนวณและประมวลผลข้อมูลทางคณิตศาสตร์ได้เร็วกว่ามนุษย์มาก"
+    "explanation": "คอมพิวเตอร์มีความเร็วในการคำนวณทางคณิตศาสตร์เหนือกว่ามนุษย์"
   },
   {
     "id": 160,
@@ -3517,7 +3517,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "การอ่านบาร์โค้ดเป็นการอ่านค่ารหัสตรงไปค้นหาในฐานข้อมูล ไม่ได้ใช้ AI"
+    "explanation": "การค้นหาข้อมูลจากบาร์โค้ดเป็นการสืบค้นฐานข้อมูลปกติ ไม่ได้ใช้ AI"
   },
   {
     "id": 161,
@@ -3561,7 +3561,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "DFS อาจติดอยู่ในกิ่งลึกที่ไม่สิ้นสุด ทำให้ใช้เวลาค้นหานานมากหรือไม่พบคำตอบ"
+    "explanation": "DFS อาจติดอยู่ในกิ่งลึกที่ไม่สิ้นสุด ทำให้ใช้เวลาค้นหานานมาก"
   },
   {
     "id": 163,
@@ -3583,7 +3583,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "Decision Tree สามารถแปลผลการตัดสินใจเป็นกฎ If-Else ที่มนุษย์เข้าใจได้ง่าย"
+    "explanation": "Decision Tree มีจุดเด่นด้าน Interpretability มนุษย์เข้าใจได้ง่าย"
   },
   {
     "id": 164,
@@ -3605,7 +3605,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "CNN (Convolutional Neural Network) เป็นโครงสร้างที่ดีที่สุดสำหรับข้อมูลภาพ"
+    "explanation": "CNN เป็นสถาปัตยกรรมที่ดีที่สุดสำหรับข้อมูลภาพ"
   },
   {
     "id": 165,
@@ -3627,7 +3627,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "หัวใจสำคัญของการเทรน Machine Learning คือการ Minimize Loss/Error function"
+    "explanation": "หัวใจสำคัญของ Machine Learning คือการลด Loss/Error บน Training Data"
   },
   {
     "id": 166,
@@ -3649,7 +3649,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "การทำนายตัวเลขต่อเนื่อง (Continuous value) จัดเป็นปัญหา Regression ซึ่งใช้ Linear Regression"
+    "explanation": "Linear Regression เหมาะสำหรับพยากรณ์ค่าตัวเลขต่อเนื่อง"
   },
   {
     "id": 167,
@@ -3671,7 +3671,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คอมพิวเตอร์เชิงไฟฟ้าใช้สถานะเปิด/ปิดสวิตช์ทางไฟฟ้าแทน 0 และ 1"
+    "explanation": "คอมพิวเตอร์เชิงไฟฟ้าใช้สถานะเปิด/ปิดสวิตช์แทน 0 และ 1"
   },
   {
     "id": 168,
@@ -3693,7 +3693,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "10010000 ในฐานสิบคือ 144, บิตแรกซ้ายสุดเป็น 1 คือค่าลบในระบบ Sign bit, และ 8 บิตแทนได้ 256 ค่า"
+    "explanation": "10010000 = 144 ในฐานสิบ, บิตซ้ายสุด 1 คือค่าลบ, 8 บิตแทนได้ 256 ค่า"
   },
   {
     "id": 169,
@@ -3715,7 +3715,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "0100 AND 0010 = 0000 เนื่องจากไม่มีบิตใดที่ตรงกันเป็น 1"
+    "explanation": "0100 AND 0010 ได้ 0000 เนื่องจากไม่มีบิตใดที่ตรงกันเป็น 1"
   },
   {
     "id": 170,
@@ -3737,7 +3737,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "รีจิสเตอร์และแคชใน CPU เป็นหน่วยความจำที่ทำงานเร็วที่สุด"
+    "explanation": "รีจิสเตอร์และแคชใน CPU ทำงานเร็วที่สุด"
   },
   {
     "id": 171,
@@ -3759,7 +3759,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "ช่วยประมวลผลหลายงานพร้อมกัน กระจายงานขนาน และรองรับผู้ใช้หลายคน"
+    "explanation": "การมี CPU Cores มากขึ้นช่วยให้ทำงานพร้อมกันหลายโปรเซส แบ่งงานย่อยขนานกัน และแบ่งการทำงานให้ผู้ใช้หลายคนได้"
   },
   {
     "id": 172,
@@ -3780,8 +3780,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 2,
+    "explanation": "ในเครื่องคำนวณกลไกโบราณ การทดรอบของเฟือง (เช่น 10 ฟันหมุนครบ 1 รอบไปหมุนเฟืองหลักถัดไป 1 ฟัน) เทียบเท่ากับการทดเลขในระบบฐานสิบ"
   },
   {
     "id": 173,
@@ -3803,7 +3803,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ทรานซิสเตอร์ทำหน้าที่เป็นสวิตช์อิเล็กทรอนิกส์ควบคุมการไหลของกระแสไฟ"
+    "explanation": "ทรานซิสเตอร์ทำหน้าที่เป็นสวิตช์อิเล็กทรอนิกส์ความเร็วสูงสำหรับควบคุมการไหลของกระแสไฟ"
   },
   {
     "id": 174,
@@ -3825,7 +3825,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "Core มากขึ้นช่วย Multitasking, Parallel processing และรองรับผู้ใช้หลายคน"
   },
   {
     "id": 175,
@@ -3847,7 +3847,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "หน้าที่ OS ครอบคลุมจัดสรรทรัพยากร ควบคุมสิทธิ์ และเครือข่าย"
   },
   {
     "id": 176,
@@ -3869,7 +3869,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "ข้อมูลภาพดิจิทัลรองรับทั้งพิกเซล RGB และสมการเวกเตอร์"
+    "explanation": "ข้อมูลภาพดิจิทัลรองรับทั้งการเก็บแบบจุดพิกเซลสี RGB (Bitmap/Raster) และการเก็บสมการเส้นเรขาคณิต (Vector)"
   },
   {
     "id": 177,
@@ -3891,7 +3891,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "ทุกข้อมูลเป็นเพียงไบต์ 0 และ 1 ซึ่งสามารถนำไปตีความได้ตามประเภทของโปรแกรม"
+    "explanation": "ภาพเก็บได้ทั้งแบบ Bitmap/Raster และ Vector"
   },
   {
     "id": 178,
@@ -3912,8 +3912,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 1,
+    "explanation": "0100 OR 0010 = 0110 (การทำ Bitwise OR จะได้ 1 หากมีบิตใดบิตหนึ่งเป็น 1)"
   },
   {
     "id": 179,
@@ -3937,7 +3937,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "คำนวณผลลัพธ์ตามสถานะของลอจิกเกตในวงจรดิจิทัล"
+    "explanation": "ผลลัพธ์ของวงจรตรรกศาสตร์ดิจิทัล"
   },
   {
     "id": 180,
@@ -3961,7 +3961,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "คำนวณผลลัพธ์ตามสถานะของลอจิกเกตในวงจรดิจิทัล"
+    "explanation": "ผลลัพธ์ของวงจรตรรกศาสตร์ดิจิทัล"
   },
   {
     "id": 181,
@@ -3985,7 +3985,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "วงจร D Flip-Flop ทำงานที่สัญญาณนาฬิกาขาขึ้น สัญญาณเอาต์พุต Q จะเปลี่ยนสถานะตามอินพุต D สอดคล้องกับรูป A)"
   },
   {
     "id": 182,
@@ -4007,7 +4007,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "CPU เป็นหน่วยประมวลผลและคำนวณหลัก (ALU)"
+    "explanation": "CPU เป็นหน่วยประมวลผลและคำนวณหลักของคอมพิวเตอร์ (ภายในมี ALU)"
   },
   {
     "id": 183,
@@ -4029,7 +4029,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "ความถี่สัญญาณนาฬิกา (Clock Speed) ที่สูงขึ้น หมายถึง CPU สามารถประมวลผลรอบคำสั่งได้มากขึ้นในหนึ่งหน่วยเวลา"
   },
   {
     "id": 184,
@@ -4050,8 +4050,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 1,
+    "explanation": "Disk (SSD/HDD) เก็บข้อมูลได้แม้ไม่มีไฟเลี้ยง ต่างจาก RAM"
   },
   {
     "id": 185,
@@ -4072,8 +4072,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 1,
+    "explanation": "ขั้นตอน Decode ใน Pipeline ทำหน้าที่ตีความคำสั่ง"
   },
   {
     "id": 186,
@@ -4094,8 +4094,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 2,
+    "explanation": "ระบบปฏิบัติการควบคุมและประสานงานฮาร์ดแวร์ส่วนต่างๆ"
   },
   {
     "id": 187,
@@ -4117,7 +4117,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "มนุษย์สั่งการผ่านภาษาระดับสูง แอสเซมบลี และภาษาเครื่อง"
   },
   {
     "id": 188,
@@ -4139,7 +4139,7 @@
       []
     ],
     "correct_index": 0,
-    "explanation": "ภาษา Assembly แปลง 1:1 กับ Machine Code โดยใช้ตัวช่วยจำ (Mnemonics)"
+    "explanation": "ภาษาแอสเซมบลีเทียบเท่ากับภาษาเครื่อง"
   },
   {
     "id": 189,
@@ -4160,8 +4160,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 2,
+    "explanation": "นำคำสั่งพื้นฐานหลายคำสั่งมาประกอบกันเพื่อให้ทำงานที่ซับซ้อนขึ้น"
   },
   {
     "id": 190,
@@ -4183,7 +4183,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "OS จัดสรรทรัพยากร ควบคุมสิทธิ์ และเชื่อมต่อกับฮาร์ดแวร์/เครือข่าย"
+    "explanation": "หน้าที่ของระบบปฏิบัติการ"
   },
   {
     "id": 191,
@@ -4204,8 +4204,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 3,
+    "explanation": "Android เป็นระบบปฏิบัติการ ส่วนตัวเลือกอื่นเป็นชื่อบริษัท"
   },
   {
     "id": 192,
@@ -4226,8 +4226,8 @@
       [],
       []
     ],
-    "correct_index": 0,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "correct_index": 2,
+    "explanation": "Device driver ควบคุมอุปกรณ์ต่อพ่วงโดยทำงานร่วมกับ OS"
   },
   {
     "id": 193,
@@ -4249,7 +4249,7 @@
       []
     ],
     "correct_index": 3,
-    "explanation": "คำตอบที่ถูกต้องตามหลักการทำงานของระบบดิจิทัล"
+    "explanation": "ซอฟต์แวร์หลายประเภทช่วยให้ทำงานเฉพาะด้านได้ดี"
   },
   {
     "id": 194,
@@ -4271,7 +4271,7 @@
       []
     ],
     "correct_index": 2,
-    "explanation": "ไฟล์มีมาตรฐานการเข้ารหัส (File specification) สากล ทำให้โปรแกรมอื่นตีความได้ตรงกัน"
+    "explanation": "โปรแกรมเข้าใจมาตรฐานไฟล์เดียวกัน"
   },
   {
     "id": 195,
@@ -4295,7 +4295,7 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "คำนวณผลลัพธ์ตามสถานะของลอจิกเกตในวงจรดิจิทัล"
+    "explanation": "ผลลัพธ์ของวงจรตรรกศาสตร์ดิจิทัล"
   },
   {
     "id": 196,
@@ -4319,6 +4319,6 @@
       []
     ],
     "correct_index": 1,
-    "explanation": "คำนวณผลลัพธ์ตามสถานะของลอจิกเกตในวงจรดิจิทัล"
+    "explanation": "ผลลัพธ์ของวงจรตรรกศาสตร์ดิจิทัล"
   }
 ]
